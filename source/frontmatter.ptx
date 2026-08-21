@@ -18,5 +18,7 @@
     <titlepage-items/>
   </titlepage>
 
+  <xi:include href="./syllabus/syllabus.ptx"/>
+
 </frontmatter>
 

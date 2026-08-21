@@ -1,29 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+
+
 <section xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Syllabus</title>
 
-  <introduction>
+  <!-- <introduction>
     <p>
     </p>
-  </introduction>
+  </introduction> -->
   <!-- Include chapters -->
   <subsection xml:id="sec-course-info">
     <title>Course Information</title>
 
     <p>
-      This is the syllabus for <term>course name (MATH xxx, section xxx)</term> for [term] 20xx.
-      It is a [n] credit course.
-      <!-- use a description list (dl) for short items -->
+      
       <dl>
         <li>
           <title>Instructor</title>
 
           <p>
-            Prof. Lastname, Office Location, <url href="mailto:prof.lastname@example.edu">prof.lastname@example.edu</url>.
+            Adam Fuller, Morton 561, <url href="mailto:fullera@ohio.edu">fullera@ohio.edu</url>.
           </p>
         </li>
 
+        <li><title>Teaching Assistant</title>
+          <p> Michael Shobe,  Morton 239, <url href="mailto:ms712025@ohio.edu">ms712025@ohio.edu</url>.</p>
+        </li>
         <li>
           <title>Student Hours</title>
 
@@ -32,19 +35,19 @@
           </p>
         </li>
 
-        <li>
+        <!-- <li>
           <title>Class meets</title>
 
           <p>
-            course times and location.
+            
           </p>
-        </li>
+        </li> -->
 
         <li>
           <title>Course Description</title>
 
           <p>
-            course description from catalog
+            First course in calculus and analytic geometry with applications in the sciences and engineering. Includes basic techniques of differentiation and integration with applications including rates of change, optimization problems, and curve sketching; includes exponential, logarithmic and trigonometric functions. Calculus is the mathematical language used to describe and analyze change. The course emphasizes how this abstract language and its associated techniques provide a unified way of approaching problems originating in disparate areas of science, technology, and society, highlighting how questions arising in different fields are connected to the same fundamental mathematical ideas. No credit for both MATH 2301 and 1350 (always keep 2301).
           </p>
         </li>
 
@@ -52,7 +55,7 @@
           <title>Prerequisite</title>
 
           <p>
-            list of prerequisites
+            (B or better in MATH 1350) or (C or better in 1300 or 1322) or (Math placement level 3)
           </p>
         </li>
 
@@ -60,27 +63,231 @@
           <title>Textbook and course materials</title>
 
           <p>
-            <pubtitle>textbook name</pubtitle>
-            by textbook author.
+            <pubtitle>Essential Calculus: Early Transcendentals, </pubtitle>
+            by James Stewart, 2nd Edition ISBN-13: 9781133112280 (available through inclusive access).
+          </p>
+        </li>
+
+        <li>
+          <title>Course Outcomes</title>
+          <p>
+          <ul>
+            <li> Students will be able to use the tools of differential and integral calculus in a variety of applications.</li>
+
+            <li>	Students will be able to explain information presented in mathematical forms (e.g., equations, graphs, diagrams, tables, words).</li>
+
+            <li>	Students will be able to convert relevant information into various mathematical forms (e.g., equations, graphs, diagrams, tables, words).</li>
+
+            <li>	Students will be able to calculate relevant information using various mathematical formulas.</li>
+
+            <li>	Students will be able to make judgments and draw appropriate conclusions based on the quantitative analysis of data while recognizing the limits of this analysis.</li>
+
+            <li>	Students will be able to make and evaluate important assumptions in estimation, modeling, and data analysis.</li>
+
+            <li>	Students will be able to express quantitative evidence in support of the argument or purpose of the work (in terms of what evidence is used and how it is formatted, presented, and contextualized).</li>
+
+            <li>	Students will be able to critically state, describe, and consider an issue or problem.</li>
+
+            <li>	Students will be able to use information from source(s) with enough interpretation/evaluation to develop a comprehensive analysis or synthesis.</li>
+
+            <li>	Students will be able to systematically and methodically analyze assumptions and carefully evaluate the relevance of contexts when presenting a position.</li>
+
+            <li>	Students will be able to state a specific position (i.e., perspective, thesis, or hypothesis) that is thoughtful, recognizes complexities, and acknowledges limitations.</li>
+
+            <li>	Students will be able to state conclusions and related outcomes (consequences and implications) logically and in a priority order.</li>
+          </ul>
           </p>
         </li>
       </dl>
     </p>
+    </subsection>
 
-  <!-- Use paragraphs to break apart subsections -->
+  <!-- Use paragraphs to break apart subsections
     <paragraphs>
       <title>Course Overview</title>
 
       <p>
       </p>
     </paragraphs>
-  </subsection>
+  </subsection> -->
 
   <!-- Other subsections for larger dividers -->
   <subsection xml:id="sec-assessments">
     <title>Assessments and Grades</title>
+  <subsubsection><title>Assignments</title>
+  <p>
+    Assignments will be through WebAssign, accessible through the courses Canvas page. 
+  </p>
+   </subsubsection>
 
+  <subsubsection><title>Quizzes</title>
+  <p>
+    There will be short, in-class quizzes most weeks. These will cover material since the last quiz.
+  </p>
+   </subsubsection>
+
+    <subsubsection><title>Midterms</title>
+  <p>
+    There will be three midterm exams held in class. All midterms will cover all material covered up to that point. Midterms must be collected in person to receive your grade. 
+  </p>
+   </subsubsection>
+
+    <subsubsection><title>Final Exam</title>
+  <p>
+   
+      The final exam will be held in Morton Hall on Thursday, December 10th from 4:40-6:40pm. Exact room allocations will be give before the exam.
+  </p>
+   </subsubsection>
+
+  <subsubsection><title>Grade Calculation</title>
     <p>
+      The material in the course will be weighted as WebWork Assignments 4%; Quizzes 20% (best 8 out of 9); Recitations 6% (best 14 out of 15); Midterm Exams 45% (best 2 out of 3) and Final Exam 30%.  Your final letter grade will be based on the following:
     </p>
+      <dl>
+        <li>
+          <title>A</title>
+          <p>
+            <m>\geq 93 \%</m>
+          </p>
+        </li>
+        <li>
+          <title>A-</title>
+          <p>
+            <m>\geq 90 \%</m> and <m>\lt 93 \%</m>
+          </p>
+        </li>
+        <li>
+          <title>B+</title>
+          <p>
+            <m>\geq 87 \%</m> and <m>\lt 90 \%</m>
+          </p>
+        </li>
+        <li>
+          <title>B</title>
+          <p>
+            <m>\geq 83 \%</m> and <m>\lt 87 \%</m>
+          </p>
+        </li>
+        <li>
+          <title>B-</title>
+          <p>
+            <m>\geq 80 \%</m> and <m>\lt 83 \%</m>
+          </p>
+        </li>
+        <li>
+          <title>C+</title>
+          <p>
+            <m>\geq 77 \%</m> and <m>\lt 80 \%</m>
+          </p>
+        </li>
+        <li>
+          <title>C</title>
+          <p>
+            <m>\geq 73 \%</m> and <m>\lt 77 \%</m>
+          </p>
+        </li>
+        <li>
+          <title>C-</title>
+          <p>
+            <m>\geq 70 \%</m> and <m>\lt 73 \%</m>
+          </p>
+        </li>
+        <li>
+          <title>D+</title>
+          <p>
+            <m>\geq 67 \%</m> and <m>\lt 70 \%</m>
+          </p>
+        </li>
+        <li>
+          <title>D</title>
+          <p>
+            <m>\geq 63 \%</m> and <m>\lt 67 \%</m>
+          </p>
+        </li>
+        <li>
+          <title>D-</title>
+          <p>
+            <m>\geq 60 \%</m> and <m>\lt 63 \%</m>
+          </p>
+        </li>
+        <li>
+          <title>F</title>
+          <p>
+            <m>\lt 60 \%</m>
+          </p>
+        </li>
+      </dl>
+      <p>
+        Grades FN (Failed, Never Attended) and FS (Failed, Stopped Attending) can also be given when appropriate. Both FN and FS count as an F in the GPA .
+      </p>
+  </subsubsection>
   </subsection>
+
+<subsection>
+  <title>Academic Integrity</title>
+  <p>
+    All work submitted, other than group work recitations, should be your own. If there has been collusion between students, or work submitted has not the your own work, you will receive an F in the course and the Office of Community Standards and Student Responsibility will be contacted with a formal referral. For information on Academic Integrity see <url href="https://www.ohio.edu/student-affairs/community-standards/students">https://www.ohio.edu/student-affairs/community-standards/students</url>. In particular, I will note the following: <em><q>If a student is unsure about a question of plagiarism or cheating, he or she is obligated to consult his or her instructor on the matter before submitting the material.</q></em> Students may appeal academic sanctions through the grade appeal process. The Office of Community Standards and Student Responsibility may impose additional sanctions beyond those imposed by the instructor.
+  </p>
+</subsection>
+
+<subsection><title>Schedule</title>
+
+  <tabular>
+    <row>
+      <cell><alert>Week</alert></cell> <cell><alert>In class work</alert></cell>
+    </row>
+    <row>
+      <cell>8/24 – 8/28</cell><cell> M: Diagnostics </cell>
+    </row>
+    <row>
+      <cell>8/31 - 9/4</cell> <cell>W: Quiz</cell>
+    </row>
+    <row>
+      <cell>9/7 - 9/11 (Labor Day 9/7)</cell> <cell>F: Quiz</cell>
+    </row>
+    <row>
+      <cell>9/14 - 9/18 </cell><cell>F: Exam</cell>
+    </row>
+    <row>
+      <cell>9/21 - 9/25 </cell><cell></cell>
+    </row>
+    <row>
+      <cell>9/28 – 10/2 (Fall Break 10/2)</cell><cell>M: Quiz</cell>
+    </row>
+    <row>
+      <cell>10/5 – 10/9</cell><cell>F: Quiz</cell>
+    </row>
+    <row>
+      <cell>10/12 - 10/16</cell><cell>W: Exam</cell>
+    </row>
+    <row>
+      <cell>10/19 - 10/23</cell><cell>F: Quiz</cell>
+    </row>
+    <row>
+      <cell>10/26 - 10/30</cell><cell>F: Quiz</cell>
+    </row>
+    <row>
+      <cell>11/2 - 11/6</cell><cell>F: Quiz</cell>
+    </row>
+    <row>
+      <cell>11/9 - 11/13 (Veteran’s Day 11/11)</cell><cell>F: Exam</cell>
+    </row>
+    <row>
+      <cell>11/16 - 11/19</cell><cell>F: Quiz</cell>
+    </row>
+    <row>
+      <cell>11/23 - 11/27 (Thanksgiving 11/26 – 11/28)</cell><cell></cell>
+    </row>
+    <row>
+      <cell>11/30 - 12/4</cell><cell>W: Quiz</cell>
+    </row>
+    <row>
+      <cell>12/7 - 12/11 (Exam week)</cell><cell>Th: Final Exam (4:30- 6:40)</cell>
+    </row>
+
+  </tabular>
+<!-- </table> -->
+</subsection>
 </section>
+
+
