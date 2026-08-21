@@ -1,6 +1,42 @@
 var ptx_lunr_search_style = "textbook";
 var ptx_lunr_docs = [
 {
+  "id": "sec-course-info",
+  "level": "1",
+  "url": "sec-course-info.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Course Information",
+  "body": " Course Information     Instructor  Adam Fuller, Morton 561, fullera@ohio.edu .   Teaching Assistant  Michael Shobe, Morton 239, ms712025@ohio.edu .    Student Hours  TBD     Course Description  First course in calculus and analytic geometry with applications in the sciences and engineering. Includes basic techniques of differentiation and integration with applications including rates of change, optimization problems, and curve sketching; includes exponential, logarithmic and trigonometric functions. Calculus is the mathematical language used to describe and analyze change. The course emphasizes how this abstract language and its associated techniques provide a unified way of approaching problems originating in disparate areas of science, technology, and society, highlighting how questions arising in different fields are connected to the same fundamental mathematical ideas. No credit for both MATH 2301 and 1350 (always keep 2301).    Prerequisite  (B or better in MATH 1350) or (C or better in 1300 or 1322) or (Math placement level 3)    Textbook and course materials   Essential Calculus: Early Transcendentals, by James Stewart, 2nd Edition ISBN-13: 9781133112280 (available through inclusive access).    Course Outcomes    Students will be able to use the tools of differential and integral calculus in a variety of applications.  Students will be able to explain information presented in mathematical forms (e.g., equations, graphs, diagrams, tables, words).  Students will be able to convert relevant information into various mathematical forms (e.g., equations, graphs, diagrams, tables, words).  Students will be able to calculate relevant information using various mathematical formulas.  Students will be able to make judgments and draw appropriate conclusions based on the quantitative analysis of data while recognizing the limits of this analysis.  Students will be able to make and evaluate important assumptions in estimation, modeling, and data analysis.  Students will be able to express quantitative evidence in support of the argument or purpose of the work (in terms of what evidence is used and how it is formatted, presented, and contextualized).  Students will be able to critically state, describe, and consider an issue or problem.  Students will be able to use information from source(s) with enough interpretation\/evaluation to develop a comprehensive analysis or synthesis.  Students will be able to systematically and methodically analyze assumptions and carefully evaluate the relevance of contexts when presenting a position.  Students will be able to state a specific position (i.e., perspective, thesis, or hypothesis) that is thoughtful, recognizes complexities, and acknowledges limitations.  Students will be able to state conclusions and related outcomes (consequences and implications) logically and in a priority order.       "
+},
+{
+  "id": "sec-assessments",
+  "level": "1",
+  "url": "sec-assessments.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Assessments and Grades",
+  "body": " Assessments and Grades  Assignments  Assignments will be through WebAssign, accessible through the courses Canvas page.   Quizzes  There will be short, in-class quizzes most weeks. These will cover material since the last quiz.   Midterms  There will be three midterm exams held in class. All midterms will cover all material covered up to that point. Midterms must be collected in person to receive your grade.   Final Exam  The final exam will be held in Morton Hall on Thursday, December 10th from 4:40-6:40pm. Exact room allocations will be give before the exam.   Grade Calculation  The material in the course will be weighted as WebWork Assignments 4%; Quizzes 20% (best 8 out of 9); Recitations 6% (best 14 out of 15); Midterm Exams 45% (best 2 out of 3) and Final Exam 30%. Your final letter grade will be based on the following:    A       A-   and     B+   and     B   and     B-   and     C+   and     C   and     C-   and     D+   and     D   and     D-   and     F       Grades FN (Failed, Never Attended) and FS (Failed, Stopped Attending) can also be given when appropriate. Both FN and FS count as an F in the GPA .   "
+},
+{
+  "id": "syllabus-4",
+  "level": "1",
+  "url": "syllabus-4.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Academic Integrity",
+  "body": " Academic Integrity  All work submitted, other than group work recitations, should be your own. If there has been collusion between students, or work submitted has not the your own work, you will receive an F in the course and the Office of Community Standards and Student Responsibility will be contacted with a formal referral. For information on Academic Integrity see https:\/\/www.ohio.edu\/student-affairs\/community-standards\/students . In particular, I will note the following: If a student is unsure about a question of plagiarism or cheating, he or she is obligated to consult his or her instructor on the matter before submitting the material. Students may appeal academic sanctions through the grade appeal process. The Office of Community Standards and Student Responsibility may impose additional sanctions beyond those imposed by the instructor.  "
+},
+{
+  "id": "syllabus-5",
+  "level": "1",
+  "url": "syllabus-5.html",
+  "type": "Subsection",
+  "number": "",
+  "title": "Schedule",
+  "body": "Schedule    Week  In class work    8\/24 – 8\/28 M: Diagnostics    8\/31 - 9\/4  W: Quiz    9\/7 - 9\/11 (Labor Day 9\/7)  F: Quiz    9\/14 - 9\/18 F: Exam    9\/21 - 9\/25    9\/28 – 10\/2 (Fall Break 10\/2) M: Quiz    10\/5 – 10\/9 F: Quiz    10\/12 - 10\/16 W: Exam    10\/19 - 10\/23 F: Quiz    10\/26 - 10\/30 F: Quiz    11\/2 - 11\/6 F: Quiz    11\/9 - 11\/13 (Veteran’s Day 11\/11) F: Exam    11\/16 - 11\/19 F: Quiz    11\/23 - 11\/27 (Thanksgiving 11\/26 – 11\/28)    11\/30 - 12\/4 W: Quiz    12\/7 - 12\/11 (Exam week) Th: Final Exam (4:30- 6:40)     "
+},
+{
   "id": "ch--2",
   "level": "1",
   "url": "ch--2.html",
