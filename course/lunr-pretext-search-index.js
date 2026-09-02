@@ -97,7 +97,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Quiz 1",
-  "body": " Quiz 1    Answer all questions. Show your work. .  Clearly write your name on the top of the page.      Below is the graph of .    Plot of a piecewise defined function.         Fill in the answers based on the graph.            List the points where is not continuous. Which of these points are jump discontinuities ? Which of these points are removable discontinuities ?    The function is not continuous at , , and . Jump discontinuities at and . Removable discontinuity at          Evaluate the following limits. If the limit does not exist, write DNE.                      Note that we can't plug in the value , since that would give in the denominator. Instead, note that when , Hence        .    Here we will use the fact that . Note that Hence        .    Note that, for  Multiplying across by we get Since it follows from the Squeeze Theorem that       "
+  "body": " Quiz 1    Answer all questions. Show your work. .  Clearly write your name on the top of the page.      Below is the graph of .    Plot of a piecewise defined function.         Fill in the answers based on the graph.            List the points where is not continuous. Which of these points are jump discontinuities ? Which of these points are removable discontinuities ?    The function is not continuous at , , and . Jump discontinuities at and . Removable discontinuity at          Evaluate the following limits. If the limit does not exist, write DNE.                      Note that we can't plug in the value , since that would give in the denominator. Instead, note that when , Hence        .    Here we will use the fact that . Note that Hence        .    Note that, for  Multiplying across by we get Since it follows from the Squeeze Theorem that    Plot of , , and between and . The three curve all converge to at , illustrating the Squeeze Theorem.          "
 },
 {
   "id": "root-1-2-5-2-3-1",
@@ -115,7 +115,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Evaluate the following limits. If the limit does not exist, write DNE.                      Note that we can't plug in the value , since that would give in the denominator. Instead, note that when , Hence        .    Here we will use the fact that . Note that Hence        .    Note that, for  Multiplying across by we get Since it follows from the Squeeze Theorem that     "
+  "body": "  Evaluate the following limits. If the limit does not exist, write DNE.                      Note that we can't plug in the value , since that would give in the denominator. Instead, note that when , Hence        .    Here we will use the fact that . Note that Hence        .    Note that, for  Multiplying across by we get Since it follows from the Squeeze Theorem that    Plot of , , and between and . The three curve all converge to at , illustrating the Squeeze Theorem.        "
 }
 ]
 
