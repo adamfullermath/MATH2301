@@ -18,6 +18,12 @@
       <chapter xml:id="ch-">
         <title>Recitations</title>
             <xi:include href="./recitations/recitation01.ptx"/>
+            <xi:include href="./recitations/recitation02.ptx"/>
+      </chapter>
+
+      <chapter>
+        <title>Quizzes</title>
+          <xi:include href="./quizzes/quiz01.ptx"/>
       </chapter>
 
 

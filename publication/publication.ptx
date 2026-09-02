@@ -73,7 +73,7 @@
     <!-- the text to place in that position.  For example:               -->
     
       <worksheet margin="0.5in">
-        <first-page-header left="Names: "/>
+        <first-page-header left="Name: "/>
         <!-- <first-page-footer center="Page 1"/>
         <running-header left="Worksheet"/>
         <running-footer center="continued"/> -->

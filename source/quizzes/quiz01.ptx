@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Quiz 1</title>
+
+  <introduction>
+    <p>
+      <alert>Answer all questions. Show your work.</alert>.
+    </p>
+
+    <p>
+        Clearly write your name on the top of the page.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+    <introduction>
+        
+    <p>
+        Below is the graph of <m>g(x)</m>.
+        <!-- <figure width="50%"> -->
+            <!-- <caption>Graph of <m>f(x)</m></caption> -->
+            <image width="50%">
+                <shortdescription>Plot of a piecewise defined function.</shortdescription>
+                
+            <sageplot label="quiz1">
+                rad = 0.05
+                disp= 0.02
+                f = x^2 -1
+                g = 4*sin((pi/4)*x) - 2
+                h = 6*sin(pi*(x-2)/6)
+
+                plt1 = plot(f,(-2,-disp), gridlines='major')
+                plt2 = plot(g,(disp,2-disp))
+                plt3 = plot(h,(2+disp,3-disp))
+                plt4 = plot(h,(3+disp,6))
+
+                pt1 = circle((0,-1),rad, fill=True)
+                pt2 = circle((0,-2),rad, fill=False)
+                pt3 = circle((0,-1),rad)
+                pt4 = circle((2,2),rad)
+                pt5 = circle((2,1),rad, fill=True)
+                pt6 = circle((2,0),rad)
+                pt7 = circle((3,3),rad)
+
+                plt = plt1 + plt2 + plt3 + plt4 + pt1 + pt2 + pt3 + pt4 + pt5 + pt6 +pt7
+
+                plt
+            </sageplot>
+            </image>
+            </p>
+        </introduction>
+        <!-- </figure> -->
+        <task>
+            <statement>
+                <p> Fill in the answers based on the graph.
+                
+
+        <md>
+        <mrow>  \lim_{x\rightarrow 0^-}g(x) = <fillin characters="1" />; \, 
+        \amp \lim_{x\rightarrow 0^+}g(x) = <fillin characters="1" />; \, 
+        \lim_{x\rightarrow 0}g(x) = <fillin characters="1" />; \, 
+        g(0) = <fillin characters="1" />.
+        </mrow>
+
+        <mrow>  \lim_{x\rightarrow 2^-}g(x) = <fillin characters="1" />; \, 
+        \amp \lim_{x\rightarrow 2^+}g(x) = <fillin characters="1" />; \, 
+        \lim_{x\rightarrow 2}g(x) = <fillin characters="1" />; \, 
+        g(2) = <fillin characters="1" />.
+        </mrow>
+
+        </md>
+        </p>
+        </statement>
+        <solution>
+            <p>
+                <md>
+                <mrow>  \lim_{x\rightarrow 0^-}g(x) = -1; \, 
+                \amp \lim_{x\rightarrow 0^+}g(x) = -2; \, 
+                \lim_{x\rightarrow 0}g(x) \text{ DNE}; \, 
+                g(0) = -1.
+                </mrow>
+
+                <mrow>  \lim_{x\rightarrow 2^-}g(x) = 2; \, 
+                \amp \lim_{x\rightarrow 2^+}g(x) = 0; \, 
+                \lim_{x\rightarrow 2}g(x) = \text{ DNE}; \, 
+                g(2) = 1.
+                </mrow>
+
+                </md>
+            </p>
+        </solution>
+        </task>
+
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    List the points where <m>g(x)</m> is <em>not</em> continuous.
+                    Which of these points are <term>jump discontinuities</term>? Which of these points are <term>removable discontinuities</term>?
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    The function <m>g(x)</m> is not continuous at <m>x=0</m>, <m>x=2</m>, and <m>x=3</m>.
+                    Jump discontinuities at <m>x=0</m> and <m>x=2</m>.
+                    Removable discontinuity at <m>x=3.</m>
+                </p>
+            </solution>
+        </task>
+    </exercise>
+    </page>
+    
+    <page>
+    <exercise>
+        <introduction>
+            <p>
+                Evaluate the following limits. If the limit does not exist, write DNE.
+            </p>
+        </introduction>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>\lim_{x\rightarrow 2} \frac{x^2 - 2x}{x+1}</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <md>
+                        <mrow>\lim_{x\rightarrow 2} \frac{x^2 - 2x}{x+1} \amp = \frac{\lim_{x\rightarrow 2}(x^2 - 2x)}{\lim_{x\rightarrow 2}(x+1)} </mrow>
+                        <mrow> \amp = \frac{(2)^2 - 2(2)}{2+1} </mrow>
+                        <mrow> \amp = \frac{0}{3}=0.</mrow>
+                    </md>
+                    
+                </p>
+            </solution>
+        </task>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>\lim_{x\rightarrow 1}\frac{x^2-1}{x-1}</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Note that we can't plug in the value <m>x=1</m>, since that would give <m>0</m> in the denominator.
+                    Instead, note that when <m>x \neq 1</m>,
+                    <md>
+                        \frac{x^2-1}{x-1} = \frac{(x-1)(x+1)}{x-1}=x+1.
+                    </md>
+                    Hence
+                    <md>
+                        \lim_{x\rightarrow 1} \frac{x^2-1}{x-1}  = \lim_{x\rightarrow 1} (x+1) = 1 + 1 =2.
+                    </md>
+                </p>
+            </solution>
+        </task>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>\lim_{x\rightarrow 0}\frac{\sin(8x)}{x}</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Here we will use the fact that <m>\lim_{\theta\rightarrow 0}\frac{\sin(\theta)}{\theta}=1</m>.
+                    Note that
+                    <md>
+                        \frac{\sin(8x)}{x}= 8 \cdot \frac{\sin(8x)}{8x}.
+                    </md>
+                    Hence
+                    <md>
+                        <mrow> \lim_{x\rightarrow 0}\frac{\sin(8x)}{x} \amp =\lim_{x\rightarrow 0}\left(8 \cdot \frac{\sin(8x)}{8x}\right) </mrow>
+                        <mrow> \amp = 8 \lim_{x\rightarrow 0}\frac{\sin(8x)}{8x} </mrow>
+                        <mrow> \amp = 8(1) = 8.</mrow>
+                    </md>
+                </p>
+            </solution>
+        </task>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>\lim_{x\rightarrow 0}x^2\sin\left(\frac{1}{x}\right)</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    Note that, for <m>x\neq 0</m>
+                    <md>
+                        -1 \leq \sin\left(\frac{1}{x}\right) \leq 1.
+                    </md>
+                    Multiplying across by <m>x^2</m> we get
+                    <md>
+                        -x^2 \leq x^2\sin\left(\frac{1}{x}\right) \leq x^2.
+                    </md>
+                    Since
+                    <md>
+                        \lim_{x\rightarrow 0}(-x^2)= 0 = \lim_{x\rightarrow 0}x^2,
+                    </md>
+                    it follows from the Squeeze Theorem that
+                    <md>
+                        \lim_{x\rightarrow 0}x^2\sin\left(\frac{1}{x}\right)=0.
+                    </md>
+                </p>
+            </solution>
+        </task>
+    </exercise>
+    
+
+  </page>
+</worksheet>

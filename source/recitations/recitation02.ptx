@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Recitation 2</title>
+
+  <introduction>
+    <p>
+      <alert>Instructions: fill in the appropriate answers in the spaces below.</alert>
+    </p>
+
+    <p>
+        Clearly write first and last names of each member on the top of the pages.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+    <introduction>
+    <p>
+        We will use the Squeeze Theorem to show
+        <md> \lim_{x\rightarrow 0} \sqrt{x^3+x^2}\sin\left(\frac{\pi}{x}\right) = 0. </md>
+    </p>
+    </introduction>
+    <task>
+        <statement>
+            <p>
+                Find functions <m>f(x)</m> and <m>g(x)</m> such that
+                <md> f(x) \leq \sqrt{x^3+x^2}\sin\left(\frac{\pi}{x}\right) \leq g(x). </md>
+            </p>
+            <p>
+                <md>
+                    <mrow>f(x) \amp= <fillin characters="5" /> </mrow>
+                    <mrow>g(x) \amp= <fillin characters="5" /> </mrow>
+                </md>
+            </p>
+        </statement>
+    </task>
+
+    <task workspace="2in">
+        <statement>
+            <p>
+                To apply the Squeeze Theorem we need <m>\lim_{x\rightarrow 0}f(x) = \lim_{x\rightarrow 0}g(x).</m>
+                Calculate
+                <md>
+                    \lim_{x\rightarrow 0}f(x) \text{ and } \lim_{x\rightarrow 0}g(x).
+                </md>
+                (If <m>\lim_{x\rightarrow 0}f(x) \neq \lim_{x\rightarrow 0}g(x)</m> go back and choose different <m>f(x)</m> and <m>g(x)</m>.)
+            </p>
+            <p> Put your work for calculating <m>\lim_{x\rightarrow 0}f(x)</m> and <m> \lim_{x\rightarrow 0}g(x)</m> in the space below.</p>
+        </statement>
+    </task>
+
+    <task workspace="1.5in">
+        <statement>
+            <p>
+                Apply the Squeeze Theorem to calculate <m>\lim_{x\rightarrow 0} \sqrt{x^3+x^2}\sin\left(\frac{\pi}{x}\right).</m>
+            </p>
+        </statement>
+    </task>
+    </exercise>
+    </page>
+    <page>
+    <exercise>
+    <introduction>
+        <p>
+            In this exercise you will use the Intermediate Value Theorem to study the roots of polynomials.
+        </p>
+    </introduction>
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    Use the Intermediate Value Theorem to show that the function
+                    <md> f(x) = x^3 - 5x^2 +x -11</md>
+                    has a root.
+                    That is, show that there is a solution to <m>f(x) = 0</m>.
+                    (You do not have to find the root).
+                </p>
+            </statement>
+        </task>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Let <m>p(x)</m> be any polynomial of degree <m>3</m>.
+                    Explain why <m>p(x)</m> must have at least one root.
+                </p>
+            </statement>
+        </task>
+                <task workspace="2in">
+            <statement>
+                <p>
+                    Let <m>p(x)</m> be any polynomial of odd degree.
+                    Explain why <m>p(x)</m> must have at least one root.
+                </p>
+            </statement>
+        </task>
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    Does the same argument work for polynomials of even degree?
+                </p>
+            </statement>
+        </task>
+    </exercise>
+  </page>
+</worksheet>
