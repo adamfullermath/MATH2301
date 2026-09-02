@@ -204,24 +204,26 @@
                     </md>
 
                     <figure>
-                    
-                    <image>
-                    <caption>Plot of <m>x^2\sin(1/x)</m>, <m>x^2</m>, and <m>-x^2</m> between <m>x=-0.5</m> and <m>x=0.5</m>. The three curve all converge to <m>0</m> at <m>x=0</m>, illustrating the Squeeze Theorem.</caption>
-                    <sageplot>
-                        f(x) = x^2
-                        g(x) = x^2 * sin(1/x)
-                        h(x) = -x^2
+                    <caption>Graph of <m>x^2</m>, <m>x^2\sin(1/x)</m>, and <m>-x^2</m></caption>
+                        <image>
+                        <shortdescription>Graph of <m>x^2</m>, <m>x^2\sin(1/x)</m>, and <m>-x^2</m></shortdescription>
+                        <description><p>Graph of <m>x^2</m> in red, <m>x^2\sin(1/x)</m> in blue, and <m>-x^2</m> in green. The green curve lies between the red and blue curve. All curves go to <m>0</m> as <m>x</m> goes to <m>0</m>, illustrating the Squeeze Theorem. </p></description>
+                        <sageplot label="q1squeeze">
+                            f(x) = x^2
+                            g(x) = x^2 * sin(1/x)
+                            h(x) = -x^2
 
-                        plt1 = plot(g,(-0.5,0.5), color="blue", legend_label='$x^2\sin(1/x)$')
-                        plt2 = plot(f, (-0.5,0.5), color="red", legend_label='$x^2$')
-                        plt3 = plot(h, (-0.5,0.5), color="green", legend_label='$-x^2$')
+                            plt1 = plot(g,(-0.5,0.5), color="blue", legend_label='$x^2\sin(1/x)$')
+                            plt2 = plot(f, (-0.5,0.5), color="red", legend_label='$x^2$')
+                            plt3 = plot(h, (-0.5,0.5), color="green", legend_label='$-x^2$')
 
-                        plt = plt1 + plt2 + plt3
-                        plt
-                    </sageplot>
-                    </image>
+                            plt = plt1 + plt2 + plt3
+                            plt
+                        </sageplot>
+                        </image>
                     </figure>
                 </p>
+                
             </solution>
         </task>
     </exercise>
