@@ -91,6 +91,33 @@ var ptx_lunr_docs = [
   "body": "  In this exercise you will use the Intermediate Value Theorem to study the roots of polynomials.     Use the Intermediate Value Theorem to show that the function has a root. That is, show that there is a solution to . (You do not have to find the root).      Let be any polynomial of degree . Explain why must have at least one root.      Let be any polynomial of odd degree. Explain why must have at least one root.      Does the same argument work for polynomials of even degree?    "
 },
 {
+  "id": "ch--4",
+  "level": "1",
+  "url": "ch--4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Recitation 3",
+  "body": " Recitation 3    Instructions: Clearly write first and last names of each member on the top of the pages.       On the graph below sketch the graph a function which satisfies:     The domain of is ;   is not continuous at or , is continuous at all other values of ;                                                  Answer the following questions about the functions      Find       Does the graph of have any horizontal asymptotes? If so, give their line equations.      Find       Does the graph of have any horizontal asymptotes? If so, give their line equations.      Find       Does the graph of have any horizontal asymptotes? If so, give their line equations.      "
+},
+{
+  "id": "ch--4-3-1",
+  "level": "2",
+  "url": "ch--4.html#ch--4-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  On the graph below sketch the graph a function which satisfies:     The domain of is ;   is not continuous at or , is continuous at all other values of ;                                             "
+},
+{
+  "id": "ch--4-4-1",
+  "level": "2",
+  "url": "ch--4.html#ch--4-4-1",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Answer the following questions about the functions      Find       Does the graph of have any horizontal asymptotes? If so, give their line equations.      Find       Does the graph of have any horizontal asymptotes? If so, give their line equations.      Find       Does the graph of have any horizontal asymptotes? If so, give their line equations.    "
+},
+{
   "id": "root-1-2-5-2",
   "level": "1",
   "url": "root-1-2-5-2.html",
