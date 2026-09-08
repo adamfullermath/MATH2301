@@ -19,6 +19,7 @@
         <title>Recitations</title>
             <xi:include href="./recitations/recitation01.ptx"/>
             <xi:include href="./recitations/recitation02.ptx"/>
+            <xi:include href="./recitations/recitation03.ptx"/>
       </chapter>
 
       <chapter>

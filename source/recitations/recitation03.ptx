@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Recitation 3</title>
+
+  <introduction>
+    <p>
+      <alert>Instructions: Clearly write first and last names of each member on the top of the pages.</alert>
+    </p>
+
+  </introduction>
+
+  <page>
+    <exercise>
+        <statement>
+            <p>
+                On the graph below sketch the graph a function <m>f(x)</m> which satisfies:
+
+            </p>
+            <sidebyside widths="60% 40%" margins="auto" valign="middle">
+                <p>
+                <ul>
+                    <li>
+                        The domain of <m>f</m> is <m>(-\infty,2) \cup (2,\infty)</m>;
+                    </li>
+                    <li>
+                        <m>f</m> is not continuous at <m>x=-5</m> or <m>x=2</m>, <m>f</m> is continuous at all other values of <m>x</m>;
+                    </li>
+                    <li>
+                        <m>\lim_{x \rightarrow -\infty}f(x)=3</m>
+                    </li>
+                    <li>
+                        <m>\lim_{x \rightarrow -2^{-}}f(x)=\infty</m>
+                    </li>
+                    <li>
+                        <m>\lim_{x \rightarrow -2^{+}}f(x)=-\infty</m>
+                    </li>
+                    <li>
+                        <m>f(-5)=1</m>
+                    </li>
+                    
+                </ul>
+                </p>
+                <p>
+                <ul>
+                    <li>
+                        <m>\lim_{x \rightarrow -5^{+}}f(x)=2</m>
+                    </li>
+                    <li>
+                        <m>\lim_{x \rightarrow -5^{-}}f(x)=4</m>
+                    </li>
+                    <li>
+                        <m>\lim_{x \rightarrow \infty}f(x)=-\infty</m>
+                    </li>
+                    <li>
+                        <m>\lim_{x \rightarrow -\infty}f(x)=3</m>
+                    </li>
+                    <li>
+                        <m>\lim_{x \rightarrow -2^{-}}f(x)=\infty</m>
+                    </li>
+                    <li>
+                        <m>\lim_{x \rightarrow -2^{+}}f(x)=-\infty</m>
+                    </li>
+                </ul>
+                </p>
+            </sidebyside>
+            <p>
+                <image>
+                    <sageplot label="rec3">
+                        a = plot([])
+                        a.set_axes_range(-7,7,-7,7)
+                        a
+                    </sageplot>
+                </image>
+            </p>
+        </statement>
+    </exercise>
+  </page>
+  <page>
+    <exercise>
+        <introduction>
+            <p>
+                Answer the following questions about the functions 
+                <md>
+                    <mrow>f(x) \amp= \frac{5x^3 +6x +4}{13x^3+12x+11} </mrow>
+                    <mrow>g(x) \amp= \frac{5x^3 +6x +4}{13x^7+12x+11} </mrow>
+                    <mrow>f(x) \amp= \frac{5x^7 +6x +4}{13x^3+12x+11} </mrow>
+                </md>
+            </p>
+        </introduction>
+
+            <task workspace="2in">
+                <statement>
+                    <p>
+                        Find <m>\lim_{x\rightarrow \infty}f(x)</m>
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.25in">
+                <statement>
+                    <p>
+                        Does the graph of <m>f</m> have any horizontal asymptotes?  If so, give their line equations.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="2in">
+                <statement>
+                    <p>
+                        Find <m>\lim_{x\rightarrow \infty}g(x)</m>
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.25in">
+                <statement>
+                    <p>
+                        Does the graph of <m>g</m> have any horizontal asymptotes?  If so, give their line equations.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="2in">
+                <statement>
+                    <p>
+                        Find <m>\lim_{x\rightarrow \infty}h(x)</m>
+                    </p>
+                </statement>
+            </task>
+            <task workspace="0.25in">
+                <statement>
+                    <p>
+                        Does the graph of <m>h</m> have any horizontal asymptotes?  If so, give their line equations.
+                    </p>
+                </statement>
+            </task>
+
+    </exercise>
+  </page>
+</worksheet>
