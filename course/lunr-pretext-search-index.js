@@ -118,6 +118,60 @@ var ptx_lunr_docs = [
   "body": "  Answer the following questions about the functions      Find       Does the graph of have any horizontal asymptotes? If so, give their line equations.      Find       Does the graph of have any horizontal asymptotes? If so, give their line equations.      Find       Does the graph of have any horizontal asymptotes? If so, give their line equations.    "
 },
 {
+  "id": "ch--5",
+  "level": "1",
+  "url": "ch--5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Recitation 4",
+  "body": " Recitation 4    Instructions: Clearly write first and last names of each member on the top of the pages.       Let . Use the limit definition of the derivative to calculate That is, calculate       Let . Use derivative rules to calculate .      Let      Find .      Find (using derivative laws).      Find .      Find the height of the graph of at .      Find the slope of the graph of at .         Let      Rewrite in the form       Use the power rule to calculate        Let . Find the equation of the line tangent to the curve at .     "
+},
+{
+  "id": "ch--5-3-1",
+  "level": "2",
+  "url": "ch--5.html#ch--5-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Let . Use the limit definition of the derivative to calculate That is, calculate    "
+},
+{
+  "id": "ch--5-3-2",
+  "level": "2",
+  "url": "ch--5.html#ch--5-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Let . Use derivative rules to calculate .   "
+},
+{
+  "id": "ch--5-3-3",
+  "level": "2",
+  "url": "ch--5.html#ch--5-3-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Let      Find .      Find (using derivative laws).      Find .      Find the height of the graph of at .      Find the slope of the graph of at .    "
+},
+{
+  "id": "ch--5-4-1",
+  "level": "2",
+  "url": "ch--5.html#ch--5-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Let      Rewrite in the form       Use the power rule to calculate     "
+},
+{
+  "id": "ch--5-4-2",
+  "level": "2",
+  "url": "ch--5.html#ch--5-4-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Let . Find the equation of the line tangent to the curve at .   "
+},
+{
   "id": "root-1-2-5-2",
   "level": "1",
   "url": "root-1-2-5-2.html",
@@ -143,6 +197,51 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "",
   "body": "  Evaluate the following limits. If the limit does not exist, write DNE.                      Note that we can't plug in the value , since that would give in the denominator. Instead, note that when , Hence        .    Here we will use the fact that . Note that Hence        .    Note that, for  Multiplying across by we get Since it follows from the Squeeze Theorem that   Graph of , , and   Graph of , , and  Graph of in red, in blue, and in green. The green curve lies between the red and blue curve. All curves go to as goes to , illustrating the Squeeze Theorem.        "
+},
+{
+  "id": "root-1-2-5-3",
+  "level": "1",
+  "url": "root-1-2-5-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz 2",
+  "body": " Quiz 2    Answer all questions. Show your work. Clearly write your name on the top of the page.      Calculate the following limits.        Note that we cannot plug in into , because then we would be dividing by . As gets close to , approaches . As gets close to , approaches . Hence Note that, as approaches  from above , , and . Hence          We will divide top and bottom by the highest power of in the denominator. Here, that is .        Suppose that a ball is dropped from the upper observation deck of the CN Tower, m above the ground. The equation of motion of the ball is given by Find the velocity of the ball after seconds. (Use limits to calculate your answer).     The velocity at the time is given by Note that and . Thus Note that, in this problem your solution should include units: feet per second;ft\/s.    This is an alternate approach to the same question. Instead of directly calculating we can find the general formula for , and then evaluate at . Hence, the velocity at seconds is        Let Use the limit definition of the derivative to find a formula for .    The formula for the derivative of is Hence Hence       The graph of a function , with in the interval is given below. Use the graph to answer the following questions about the derivative .          On what interval(s) is positive?    The derivative gives the slop of the tangent line to the curve at . Thus, is positive when is increasing. From the picture is increasing up until and starts increasing again at Thus, is positive on If we assume that continues to decrease before , and increases after , we could say that is positive on I accepted either answer as correct.      On what interval(s) is negative?    By the same reasoning as in part (a), will be negative where the graph of is decreasing. From the picture, is decreasing between and . Thus, is negative on the interval.    Plot of and .          "
+},
+{
+  "id": "root-1-2-5-3-3-1",
+  "level": "2",
+  "url": "root-1-2-5-3.html#root-1-2-5-3-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Calculate the following limits.        Note that we cannot plug in into , because then we would be dividing by . As gets close to , approaches . As gets close to , approaches . Hence Note that, as approaches  from above , , and . Hence          We will divide top and bottom by the highest power of in the denominator. Here, that is .     "
+},
+{
+  "id": "root-1-2-5-3-3-2",
+  "level": "2",
+  "url": "root-1-2-5-3.html#root-1-2-5-3-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Suppose that a ball is dropped from the upper observation deck of the CN Tower, m above the ground. The equation of motion of the ball is given by Find the velocity of the ball after seconds. (Use limits to calculate your answer).   "
+},
+{
+  "id": "root-1-2-5-3-4-1",
+  "level": "2",
+  "url": "root-1-2-5-3.html#root-1-2-5-3-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Let Use the limit definition of the derivative to find a formula for .    The formula for the derivative of is Hence Hence    "
+},
+{
+  "id": "root-1-2-5-3-4-2",
+  "level": "2",
+  "url": "root-1-2-5-3.html#root-1-2-5-3-4-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  The graph of a function , with in the interval is given below. Use the graph to answer the following questions about the derivative .          On what interval(s) is positive?    The derivative gives the slop of the tangent line to the curve at . Thus, is positive when is increasing. From the picture is increasing up until and starts increasing again at Thus, is positive on If we assume that continues to decrease before , and increases after , we could say that is positive on I accepted either answer as correct.      On what interval(s) is negative?    By the same reasoning as in part (a), will be negative where the graph of is decreasing. From the picture, is decreasing between and . Thus, is negative on the interval.    Plot of and .        "
 }
 ]
 
