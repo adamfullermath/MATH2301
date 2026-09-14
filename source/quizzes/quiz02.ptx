@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Quiz 2</title>
+
+  <introduction>
+    <p>
+      <alert>Answer all questions. Show your work.</alert>
+        Clearly write your name on the top of the page.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+    <introduction>
+    <p>
+        Calculate the following limits.
+    </p>
+    </introduction>
+
+    <task workspace="0.5in">
+    <statement>
+       <m>\lim_{x\rightarrow -3^+}\frac{x+4}{x+3}</m>
+    </statement>
+
+    <solution>
+        <p>
+            Note that we cannot plug in <m>x=-3</m> into <m>\frac{x+4}{x+3}</m>, because then we would be dividing by <m>0</m>.
+            As <m>x</m> gets close to <m>-3</m>, <m>x+4</m> approaches <m>1</m>.
+            As <m>x</m> gets close to <m>-3</m>, <m>x+3</m> approaches <m>0</m>.
+            Hence
+            <md>\lim_{x\rightarrow -3^+} \left|\frac{x+4}{x+3}\right| =\infty. </md>
+            Note that, as <m>x</m> approaches <m>-3</m> <em>from above</em>, <m>x+3\gt 0</m>, and <m>x+4\gt 0</m>. Hence
+            <md>\lim_{x\rightarrow -3^+} \frac{x+4}{x+3}=\infty. </md>
+        </p>
+    </solution>
+    </task>
+
+    <task workspace="0.5in">
+    <statement>
+       <m>\lim_{x\rightarrow \infty}\frac{3x^2+x-7}{x^2 + x -2}</m>
+    </statement>
+
+    <solution>
+        <p>
+            We will divide top and bottom by the highest power of <m>x</m> in the denominator. 
+            Here, that is <m>x^2</m>.
+            <md>
+                <mrow>\lim_{x\rightarrow \infty}\frac{3x^2+x-7}{x^2 + x -2} \amp =
+                \lim_{x\rightarrow \infty}\frac{(3x^2+x-7)\frac{1}{x^2}}{(x^2 + x -2)\frac{1}{x^2}}</mrow>
+                <mrow> \amp = \lim_{x\rightarrow \infty} \frac{3 + \frac{1}{x}-\frac{7}{x^2}}{1 + \frac{1}{x}-\frac{2}{x^2}}</mrow>
+                <mrow> \amp = \frac{\lim_{x\rightarrow \infty}3 +\lim_{x\rightarrow \infty} \frac{1}{x} - \lim_{x\rightarrow \infty}\frac{7}{x^2}}{\lim_{x\rightarrow \infty}1 + \lim_{x\rightarrow \infty}\frac{1}{x}-\lim_{x\rightarrow \infty}\frac{2}{x^2}} </mrow>
+                <mrow> \amp = \frac{3+ 0 + 0}{1+0+0}=3. </mrow>
+            </md>
+            
+        </p>
+    </solution>
+    </task>
+    </exercise>
+
+    <exercise workspace="1in">
+        <statement>
+            <p>
+                Suppose that a ball is dropped from the upper observation deck of the CN Tower, <m>450</m>m above the ground.
+                The equation of motion of the ball is given by 
+                <md>
+                    s = f(t) = 4.9 t^2. 
+                </md>
+                Find the velocity of the ball after <m>5</m> seconds. (Use limits to calculate your answer).
+            </p>
+        </statement>
+    </exercise>
+    <solution>
+        <p>
+            The velocity at the time <m>t = 5</m> is given by
+            <md>
+                v(5) = \lim_{h\rightarrow 0}\frac{s(5+h)-s(5)}{h}.
+            </md>
+            Note that
+            <m>
+                s(5) = (4.9)(25)
+            </m>
+            and <m>s(5+h)=4.9(25+10h+h^2)</m>.
+            Thus
+            <md>
+                <mrow>v(5) \amp= \lim_{h\rightarrow 0}\frac{4.9(25+10h+h^2)-4.9(25)}{h} </mrow>
+                <mrow> \amp =  \lim_{h\rightarrow 0}\frac{4.9h(10+h)}{h}</mrow>
+                <mrow> \amp = \lim_{h\rightarrow 0} 4.9(10+h) = 49\ \text{ft/s}.</mrow>
+            </md>
+            Note that, in this problem your solution should include units: feet per second;ft/s.
+        </p>
+    </solution>
+
+    <solution>
+        <p>
+            This is an alternate approach to the same question. Instead of directly calculating <m>v(5)</m> we can find the general formula for <m>v(t)</m>, and then evaluate at <m>t=5</m>.
+            <md>
+                <mrow>v(t) \amp = \lim_{h\rightarrow 0}\frac{s(t+h)-s(t)}{h} </mrow>
+                <mrow> \amp = \lim_{h\rightarrow 0}\frac{4.9(t^2 +2th + h^2)-4.9t^2}{h} </mrow>
+                <mrow> \amp = \lim_{h\rightarrow 0}\frac{4.9h(2t + h)}{h} </mrow>
+                <mrow> \amp = \lim_{h\rightarrow 0}4.9(2t + h) = 9.8t \text{ ft/s}. </mrow>
+            </md>
+            Hence, the velocity at <m>t=5</m> seconds is
+            <md>
+                v(5) = (9.8)(5)=49\text{ ft/s}.
+            </md> 
+        </p>
+    </solution>
+  </page>
+
+  <page>
+
+
+    <exercise workspace="1in">
+        <statement>
+            <p>
+                Let <m>f(x) = x^2 - x.</m>
+                Use the limit definition of the derivative to find a formula for <m>f'(x)</m>.
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                The formula for the derivative of <m>f</m> is
+                <md>
+                    f'(x) = \lim_{h\rightarrow 0}\frac{f(x+h)-f(x)}{h}.
+                </md>
+                Hence
+                <md>
+                    <mrow>f'(x) \amp = \lim_{h\rightarrow 0}\frac{(x+h)^2-(x+h)-[x^2-x]}{h} </mrow>
+                    <mrow> \amp = \lim_{h\rightarrow 0}\frac{x^2 + 2xh +h^2 -x-h-x^2+x}{h} 
+                    </mrow>
+                    <mrow> \amp = \lim_{h\rightarrow 0}\frac{2xh+h^2-h}{h} </mrow>
+                    <mrow> \amp = \lim_{h\rightarrow 0}(2x + h - 1) </mrow>
+                    <mrow> \amp = 2x -1. </mrow>
+                </md>
+                Hence <m>f'(x) = 2x - 1.</m>
+            </p>
+        </solution>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                The graph of a function <m>f(x)</m>, with <m>x</m> in the interval <m>[-4,4]</m> is given below.
+                Use the graph to answer the following questions about the derivative <m>f'(x)</m>.
+            </p>
+
+            <p>
+                <image label="quiz2" width="35%">
+                <sageplot>
+                f(x) = 1/6*x^3 -2*x
+                plt = plot(f(x), (x,-4,4),gridlines="major")
+                plt
+                </sageplot>
+                </image>
+            </p>
+        </introduction>
+
+        <task workspace="0.05in">
+            <statement>
+                <p>
+                    On what interval(s) is <m>f'(x)</m> positive?
+                </p>
+            </statement>
+       <solution>
+            <p>
+                The derivative <m>f'(x)</m> gives the slop of the tangent line to the curve <m>f(x)</m> at <m>x</m>.
+                Thus, <m>f'(x)</m> is positive when <m>f(x)</m> is increasing.
+                From the picture <m>f(x)</m> is increasing up until <m>-2</m> and <m>f(x)</m> starts increasing again at <m>x =2.</m>
+                Thus, <m>f'(x)</m> is positive on 
+                <md>
+                    (-4,-2) \cup (2,4).
+                </md>
+                If we assume that <m>f(x)</m> continues to decrease before <m>x-4</m>, and <m>f(x)</m> increases after <m>x = 4</m>, we could say that <m>f'(x)</m> is positive on 
+                <md>
+                    (-\infty, 2) \cup (2,\infty).
+                </md>
+                I accepted either answer as correct.
+            </p>
+        </solution>
+
+        </task>
+
+ 
+        <task workspace="0.05in">
+            <statement>
+                <p>
+                    On what interval(s) is <m>f'(x)</m> negative?
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    By the same reasoning as in part (a), <m>f'(x)</m> will be negative where the graph of <m>f(x)</m> is decreasing.
+                    From the picture, <m>f(x)</m> is decreasing between <m>x = -2</m> and <m>x=2</m>.
+                    Thus, <m>f'(x)</m> is negative on the interval.
+                    <md>
+                        (-2,2).
+                    </md>
+                </p>
+
+                <figure>
+                    <caption>Plot of <m>f(x)</m> and <m>f'(x)</m>. </caption>
+                    <image label="quiz2_2" width="75%">
+                    <sageplot>
+                    f(x) = 1/6*x^3 -2*x
+                    g(x) = 1/2*x^2 - 2
+                    plt1 = plot(f(x), (x,-4,4),gridlines="major", legend_label="$f(x)$")
+                    plt2 = plot(g(x), (x,-4,4), legend_label="$f'(x)$", color="red")
+                    plt= plt1 + plt2
+                    plt.set_axes_range(-4,4,f(-4),f(4))
+                    plt
+                    </sageplot>
+                    </image>
+                </figure>
+            </solution>
+        </task>
+    </exercise>
+  </page>
+</worksheet>

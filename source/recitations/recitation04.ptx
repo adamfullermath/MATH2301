@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Recitation 4</title>
+
+  <introduction>
+    <p>
+      <alert>Instructions: Clearly write first and last names of each member on the top of the pages.</alert>
+    </p>
+
+  </introduction>
+
+  <page>
+    <exercise workspace = "2in">
+        <statement>
+        <p>
+            Let <m>g(x)=\frac{1}{x}</m>. Use the limit definition of the derivative to calculate <m>g'(x).</m>
+            That is, calculate
+            <md>
+                \lim_{h \rightarrow 0}\frac{g(x+h)-g(x)}{h}
+            </md>
+            
+        </p>
+        </statement>
+    </exercise>
+    <exercise workspace = "0.5in">
+        <statement>
+            <p>
+                Let <m>f(x) = \pi^2</m>. Use derivative rules to calculate <m>f'(x)</m>.
+            </p>
+        </statement>
+    </exercise>
+
+        <exercise>
+        <introduction>
+            <p>
+                Let <m>f(x) = 3x^2 - 2\cos(x)</m>
+            </p>
+        </introduction>
+        <task>
+            <statement>
+                <p>
+                    Find <m>f(\pi)</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Find <m>f'(x)</m> (using derivative laws).
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Find <m>f'(\pi)</m>.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.1in">
+            <statement>
+                <p>
+                    Find the height of the graph of <m>f(x)</m> at <m>x=\pi</m>.
+                </p>
+            </statement>
+        </task>
+        <task>
+            <statement>
+                <p>
+                    Find the slope of the graph of <m>f(x)</m> at <m>x=\pi</m>.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise>
+        <introduction>
+            <p>
+                Let
+                <md>f(x) = \frac{x^2+4x+3}{\sqrt{x}}.</md> 
+            </p>
+        </introduction>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Rewrite <m>f(x)</m> in the form <m>f(x) = ax^m + bx^n + cx^d.</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    Use the power rule to calculate <m>f'(x).</m>
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise workspace = "1.5in">
+        <statement>
+            <p>
+                Let <m>f(x)=2x^3 - 4x</m>.
+                Find the equation of the line tangent to the curve <m>y=f(x)</m> at <m>x = 2</m>.
+            </p>
+        </statement>
+    </exercise>
+  </page>
+</worksheet>
