@@ -85,9 +85,9 @@
             <md>
                 <mrow>v(5) \amp= \lim_{h\rightarrow 0}\frac{4.9(25+10h+h^2)-4.9(25)}{h} </mrow>
                 <mrow> \amp =  \lim_{h\rightarrow 0}\frac{4.9h(10+h)}{h}</mrow>
-                <mrow> \amp = \lim_{h\rightarrow 0} 4.9(10+h) = 49\ \text{ft/s}.</mrow>
+                <mrow> \amp = \lim_{h\rightarrow 0} 4.9(10+h) = 49\ \text{m/s}.</mrow>
             </md>
-            Note that, in this problem your solution should include units: feet per second;ft/s.
+            Note that, in this problem your solution should include units: meters per second m/s.
         </p>
     </solution>
 
@@ -102,7 +102,7 @@
             </md>
             Hence, the velocity at <m>t=5</m> seconds is
             <md>
-                v(5) = (9.8)(5)=49\text{ ft/s}.
+                v(5) = (9.8)(5)=49\text{ m/s}.
             </md> 
         </p>
     </solution>
@@ -204,7 +204,7 @@
                     <caption>Plot of <m>f(x)</m> and <m>f'(x)</m>. </caption>
                     <image label="quiz2_2" width="75%">
                     <sageplot>
-                    f(x) = 1/6*x^3 -2*x
+                    f(x) = 1/6*x^3 -2*xt
                     g(x) = 1/2*x^2 - 2
                     plt1 = plot(f(x), (x,-4,4),gridlines="major", legend_label="$f(x)$")
                     plt2 = plot(g(x), (x,-4,4), legend_label="$f'(x)$", color="red")
