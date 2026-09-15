@@ -98,7 +98,7 @@
                 <mrow>v(t) \amp = \lim_{h\rightarrow 0}\frac{s(t+h)-s(t)}{h} </mrow>
                 <mrow> \amp = \lim_{h\rightarrow 0}\frac{4.9(t^2 +2th + h^2)-4.9t^2}{h} </mrow>
                 <mrow> \amp = \lim_{h\rightarrow 0}\frac{4.9h(2t + h)}{h} </mrow>
-                <mrow> \amp = \lim_{h\rightarrow 0}4.9(2t + h) = 9.8t \text{ ft/s}. </mrow>
+                <mrow> \amp = \lim_{h\rightarrow 0}4.9(2t + h) = 9.8t \text{ m/s}. </mrow>
             </md>
             Hence, the velocity at <m>t=5</m> seconds is
             <md>
@@ -204,7 +204,7 @@
                     <caption>Plot of <m>f(x)</m> and <m>f'(x)</m>. </caption>
                     <image label="quiz2_2" width="75%">
                     <sageplot>
-                    f(x) = 1/6*x^3 -2*xt
+                    f(x) = 1/6*x^3 -2*x
                     g(x) = 1/2*x^2 - 2
                     plt1 = plot(f(x), (x,-4,4),gridlines="major", legend_label="$f(x)$")
                     plt2 = plot(g(x), (x,-4,4), legend_label="$f'(x)$", color="red")
