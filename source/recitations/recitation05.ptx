@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Recitation 5</title>
+
+  <introduction>
+    <p>
+      <alert>Instructions: Clearly write first and last names of each member on the top of the pages.</alert>
+    </p>
+
+  </introduction>
+
+  <page>
+    <exercise workspace = "1.5in">
+        <statement>
+            <p>
+                Let <m>f(t) = t^3 \cos(t)</m>. Find <m>f'(\pi/4).</m>  Give an exact answer, not a decimal approximation.
+            </p>
+        </statement>
+    </exercise>
+
+
+
+    
+
+    <exercise>
+        <introduction>
+            <p>
+                Let <m>f(x)= \sec(x)</m>.
+            </p>
+        </introduction>
+        <task workspace = "1.5in">
+            <statement>
+                <p>
+                    Derive the formula for <m>f'(x)</m> using the quotient rule. Give an exact, simplified answer.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace = "1.5in">
+            <statement>
+                <p>
+                    Find the equation of the line tangent to the curve <m>y=f(x)</m> at <m>x=\pi/3</m>. Give an exact, simplified answer.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace = "1.5in">
+            <statement>
+                <p>
+                    Find <m>f''(x)</m>. Give an exact, simplified answer.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace = "1.5in">
+            <statement>
+                <p>
+                    Find <m>f''(\pi/4)</m>. Give an exact, simplified answer.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise>
+        <introduction>
+            <p>
+                Suppose that <m>f(5)=1</m>, <m>f'(5)=6</m>, <m>g(5)=-3</m>, and <m>g'(5)=2</m>.
+                Find the following values.
+            </p>
+        </introduction>
+        
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>(fg)'(5).</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>(f/g)'(5).</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    <m>(g/f)'(5).</m>
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                An object moves left and right on a smooth level surface with position function <m>s(t) = 8\sin(t)</m>, where <m>t</m> is is the position at time <m>t</m> seconds, in centimeters. (A positive position means that the object is to the right of the zero position; negative position means that the object is to the left of the zero position).
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Find the <em>velocity</em> at time <m>t</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Find the <em>acceleration</em> at time <m>t</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    Find the <em>position</em>, <em>velocity</em>, and <em>acceleration</em> of the object at time <m>t = 2\pi/3</m> seconds.
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    In what direction (left or right) is the object moving at that time?
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    Is the object speeding up or slowing down at that time?
+                </p>
+            </statement>
+        </task>
+    </exercise>
+  </page>
+</worksheet>

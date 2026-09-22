@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Midterm 1</title>
+
+  <!-- <introduction>
+    <p>
+      <alert>Instructions: Clearly write first and last names of each member on the top of the pages.</alert>
+    </p>
+
+  </introduction> -->
+
+  <page>
+        <p>
+            Clearly write first and last names of each member on the top of this page.
+        </p>
+        <p>
+            This is a closed book exam.
+            <ul>
+                <li>
+                    No notes or books allowed;
+                </li>
+                <li>
+                    No calculators or electronics allowed.
+                </li>
+            </ul>
+        </p>
+
+        <p>
+            If a limit does not exist in a limit question, write <em>DNE</em>. Note that <m>\infty</m> and <m>-\infty</m> can be possible answers to limit questions.
+        </p>
+
+        <p>
+            <ol marker="1.">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </p>
+  </page>
+  
+  <page></page>
+    
+  <page>
+    <exercise>
+        <statement>
+            <p>
+                Answer the following questions based on the graph shown.
+                If the answer does not exist, write <em><sq>DNE</sq></em>.
+            </p>
+
+            <p>
+                <image width="75%">
+                    <sageplot label="midterm1_1">
+                        rad = 0.05
+                        disp= 0.02
+                        f = -(1/2)*(x^2-x)+4
+                        g = -3*cos(pi*(x-2)/4) + 4
+                        h = -(x^2-8.2*x)-12.8
+
+                        plt1 = plot(f,(-2,2-disp), gridlines='major')
+                        plt2 = plot(g,(2+rad,4-disp))
+                        plt3 = plot(h,(4+rad,6))
+                        
+
+                        pt1 = circle((2,3),rad, fill=True)
+                        pt2 = circle((2,1),rad, fill=False)
+                        pt3 = circle((4,4),rad, fill=False)
+
+                        plt = plt1 + plt2 + plt3 + pt1 + pt2 + pt3
+
+                        plt
+                    </sageplot>
+                    </image>
+            </p>
+
+            <sidebyside widths="30% 30% 30%" margins="auto" valign="top">
+                <stack>
+                    <p>
+                        <m>\lim_{x\rightarrow 2^-}f(x) = <fillin characters="1" /></m>
+                    </p>
+                    <p>
+                        <m>\lim_{x\rightarrow 2^+}f(x) = <fillin characters="1" /></m>
+                    </p>
+                    <p>
+                        <m>\lim_{x\rightarrow 2}f(x) = <fillin characters="1" /></m>
+                    </p>
+                </stack>
+
+                <stack>
+                    <p>
+                        <m>f(2) = <fillin characters="1" /> </m>
+                    </p>
+                    <p>
+                        <m>\lim_{x\rightarrow 4^-}f(x) = <fillin characters="1" /></m>
+                    </p>
+                    <p>
+                        <m>\lim_{x\rightarrow 4^+}f(x) = <fillin characters="1" /></m>
+                    </p>
+                </stack>
+
+                <stack>
+                    <p>
+                        <m>\lim_{x\rightarrow 4}f(x) = <fillin characters="1" /></m>
+                    </p>
+                    <p>
+                        <m>f(4) = <fillin characters="1" /></m>
+                    </p>
+                    
+                </stack>
+            </sidebyside>
+        </statement>
+
+        <solution>
+            <sidebyside widths="30% 30% 30%" margins="auto" valign="top">
+                <stack>
+                    <p>
+                        <m>\lim_{x\rightarrow 2^-}f(x) = 3,</m>
+                    </p>
+                    <p>
+                        <m>\lim_{x\rightarrow 2^+}f(x) = 1,</m>
+                    </p>
+                    <p>
+                        <m>\lim_{x\rightarrow 2}f(x) = \text{ DNE},</m>
+                    </p>
+                </stack>
+
+                <stack>
+                    <p>
+                        <m>f(2) = 3,</m>
+                    </p>
+                    <p>
+                        <m>\lim_{x\rightarrow 4^-}f(x) = 4,</m>
+                    </p>
+                    <p>
+                        <m>\lim_{x\rightarrow 4^+}f(x) = 4,</m>
+                    </p>
+                </stack>
+
+                <stack>
+                    <p>
+                        <m>\lim_{x\rightarrow 4}f(x) = 4,</m>
+                    </p>
+                    <p>
+                        <m>f(4) = \text{ DNE}.</m>
+                    </p>
+                    
+                </stack>
+            </sidebyside>
+        </solution>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Calculate the following limits.
+            </p>
+        </introduction>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>\lim_{x\rightarrow 2}\frac{x^2-4}{x-4}.</m>
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    Note, if <m>f(x) = \frac{x^2-4}{x-4}</m>, <m>f(x)</m> is continuos at <m>x=2</m> (we are not dividing by <m>0</m> at <m>x=2</m>). 
+                    Thus
+                    <md>
+                        \lim_{x\rightarrow 2}\frac{x^2-4}{x-4} = \frac{(2)^2-4}{2-4} =\frac{0}{-2}=0.
+                    </md>
+
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>\lim_{x\rightarrow 0}x^2 \sin\left(\frac{1}{x}\right).</m>
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    Note <m>-1\leq \sin(1/x)\leq 1</m> for all <m>x \neq 0</m>.
+                    Multiplying across by <m>x^2</m> (which is never negative), we have
+                    <md>
+                        -x^2 \leq x^2 \sin(1/x) \leq x^2.
+                    </md>
+                    Since <m>\lim_{x\rightarrow 0} x^2 = 0 = \lim_{x\rightarrow 0} -x^2</m>, it follows by the <em>Squeeze theorem</em> that
+                    <md>
+                        \lim_{x\rightarrow 0}x^2 \sin(1/x) = 0.
+                    </md>
+
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>\lim_{x\rightarrow 1}\frac{x^2 + 2x}{3x+1}</m>
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    This follows the same reasoning as part (a). The function <m>f(x) = \frac{x^2 + 2x}{3x+1}</m> is continuous and defined at <m>x=1</m>, and hence
+                    <md>
+                        \lim_{x\rightarrow 1}\frac{x^2 + 2x}{3x+1}= \frac{(1)^2 +2(1)}{3(1)+1}=\frac{3}{4}.
+                    </md>
+                </p>
+            </solution>
+        </task>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise>
+        <introduction>
+            <p>
+                Calculate the following limits.
+            </p>
+        </introduction>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>\lim_{x \rightarrow \infty}\frac{2x^3 - 7x +5}{2x^3 +3x^2 + 1}</m>
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    Dividing top and bottom by the <m>x^3</m> (the highest power of <m>x</m> in the denominator) we get
+                    <md>
+                        <mrow>\lim_{x \rightarrow \infty}\frac{2x^3 - 7x +5}{2x^3 +3x^2 + 1} \amp=
+                        \lim_{x \rightarrow \infty}\frac{(2x^3 - 7x +5)\cdot \frac{1}{x^3}}{(2x^3 +3x^2 + 1)\cdot \frac{1}{x^3}} </mrow>
+                        <mrow> \amp = \lim_{x \rightarrow \infty}\frac{2 - \frac{7}{x^2} +\frac{5}{x^3}}{2 +\frac{3}{x} + \frac{1}{x^3}}</mrow>
+                        <mrow> \amp =  \frac{\lim_{x\rightarrow\infty}2 - \lim_{x\rightarrow\infty} \frac{7}{x^2} + \lim_{x\rightarrow\infty}\frac{5}{x^3}}{\lim_{x\rightarrow\infty} 2 +\lim_{x\rightarrow\infty} \frac{3}{x} + \lim_{x\rightarrow\infty}\frac{1}{x^3}}</mrow>
+                        <mrow> \amp= \frac{2+0+0}{2+0+0} </mrow>
+                        <mrow> \amp = 1. </mrow>
+                    </md>  
+                </p>
+            </solution>
+        </task>
+
+         <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>\lim_{x \rightarrow \infty} 2x^3 - 7x +5</m>
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    <m>\lim_{x\rightarrow \infty}2x^3=\infty.</m>
+                    For large <m>x</m>, <m>x^3</m> dominates the <m>-7x</m> and <m>+5</m> terms. 
+                    That is, <m>x^3</m> goes to infinity far quicker than <m>-7x</m> goes to <m>-\infty</m>.
+                    Thus
+                    <m>\lim_{x \rightarrow \infty} 2x^3 - 7x +5 = \infty.</m>
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>\lim_{x \rightarrow \infty} \cos(x)</m>
+                </p>
+            </statement>
+                    <solution>
+            <p>
+            Cosine oscillates between <m>1</m> and <m>-1</m> infinitely often as <m>x</m> goes to infinity. 
+            More precisely, <m>\cos(2n\pi)=1</m> and <m>\cos((2n+1)\pi)=-1</m> for all integers <m>n</m>. Thus, <m>\cos(x)</m> does not approach any one value as <m>x</m> increases.
+            Hence <m>\lim_{x\rightarrow \infty}\cos(x)</m> <em>does not exist.</em>
+            </p>
+
+            <p>
+                <image>
+                <sageplot  label="midterm1_sol1">
+
+                plt = plot(cos(x),-1,20, ticks=[pi,[-1,1]],  tick_formatter=[pi,[-1,1]])
+                plt.set_axes_range(-1,20,-1.2,1.2)
+                plt
+                </sageplot>
+                </image>    
+            </p>
+        </solution>
+        </task>
+
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Consider the parabola <m>y = 4x - x^2</m>.
+            </p>
+        </introduction>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Find the slope of the tangent line to the parabola at the point <m>(1,3).</m>
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                Using the power rule, we have
+                <md>
+                    <mrow>\frac{dy}{dx} \amp = 4 - 2x. </mrow>
+                </md>
+                Hence, the slope at <m>x=1</m>, is
+                <md>
+                    \left.\frac{dy}{dx}\right|_{x=1} = 4 - 2(1) = 2.
+                </md>
+                
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Find the equation of the tangent line to the parabola at the point <m>(1,3).</m>
+                </p>
+            </statement>
+
+            <solution>
+            <p>
+                The equation of a line through a point <m>(x_0,y_0)</m> with slope <m>m</m> is
+                <md>
+                    y = m(x-x_0) + y_0.
+                </md>
+                Here, we want a line through <m>(1,3)</m> (from the question), with slope <m>m=2</m> (from part (a)).
+                Hence the equation of tangent line through <m>(1,3)</m> is
+                <md>
+                    y = 2(x-1) + 3,
+                </md>
+                Or
+                <md>
+                    y = 2x + 1.
+                </md>
+            </p>
+        </solution>
+        </task>
+
+    </exercise>
+  </page>
+
+  <page>
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Let <m>f(x) = x^2 - 2x</m>. Use the definition of the derivative (i.e. the limit formula for derivatives) to calculate <m>f'(2)</m>.
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                The derivative <m>f'(x)</m> is given by,
+                <md>
+                    f'(x) = \lim_{h\rightarrow 0}\frac{f(x+h)-f(x)}{h}.
+                </md>
+                Thus,
+                <md>
+                    <mrow> f'(x) \amp = \lim_{h\rightarrow 0}\frac{[(x+h)^2 - 2(x+h)] - [x^2-2x]}{h}. </mrow>
+                    <mrow> \amp =\lim_{h\rightarrow 0}\frac{[x^2+2xh + h^2 - 2x-2h] - [x^2-2x]}{h} </mrow>
+                    <mrow> \amp =\lim_{h\rightarrow 0}\frac{2xh + h^2-2h}{h} </mrow>
+                    <mrow> \amp = \lim_{h\rightarrow 0} 2x + h -2</mrow>
+                    <mrow> \amp = 2x -2. </mrow>
+                </md>
+                That is,
+                <md>
+                    f'(x) = 2x-2.
+                </md>
+                
+            </p>
+        </solution>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Calculate the derivative for each of the following functions. (You can use any method to find your answer.)
+            </p>
+        </introduction>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>f(x) = 2x^3 - x^2 + 5x +7.</m>
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    Using the <em>power rule</em>
+                    <md>
+                        f'(x) = 2(3x^2)-2x + 5 + 0.
+                    </md>
+                    Hence
+                    <md>
+                        f'(x) = 6x^2 - 2x + 5.
+                    </md>
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>g(t) = \frac{t+1}{\sqrt{t}}.</m>
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    We can rewrite <m>g(t)</m> as
+                    <md>
+                        g(t) = t^{1/2} + t^{-1/2}.
+                    </md>
+                    Using the <em>power rule</em> to differentiate we get
+                    <md>
+                        g'(t) = \frac{1}{2}t^{-1/2} + (\frac{-1}{2}t^{-3/2}).
+                    </md>
+                    So
+                    <md>
+                        g'(t) = \frac{1}{2\sqrt{t}} - \frac{1}{2t^{3/2}} = \frac{t-1}{2t^{3/2}}.
+                    </md>
+
+                </p>
+            </solution>
+
+            <solution>
+                <p>
+                    Though it wasn't expected on this exam, one can also use the quotient rule to evaluate <m>g'(t)</m>.
+                    Using the <em>quotient rule</em> we get
+                    <md>
+                        <mrow> g'(t) \amp = \frac{(1)\sqrt{t}-(t+1)\frac{1}{2\sqrt{t}}}{[\sqrt{t}]^2} </mrow>
+                        <mrow> \amp = \frac{\sqrt{t}}{t} - \frac{t+1}{2t^{3/2}}</mrow>
+                        <mrow> \amp = \frac{1}{\sqrt{t}}- \frac{t+1}{2t^{3/2}}</mrow>
+                        <mrow> \amp = \frac{t-1}{2t^{3/2}}.</mrow>
+                    </md>
+                    Note, this is the same answer we got using the power rule.
+                </p>
+            </solution>
+        </task>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise>
+        <introduction>
+            <p>
+                Below is the graph of a function <m>f(x)</m> for <m>x</m> between <m>-2</m> and <m>4</m>.
+                That is, <m>x</m> is in the interval <m>[-2,4].</m>
+                Answer the following questions based on the graph.
+            </p>
+
+            <p>
+                <image width="30%">
+                <sageplot label="midterm1_2">
+                    rad = 0.05
+                    disp= 0.02
+                    f(x) = (abs(x-2))^(2/3) + 2
+                    h(x) = 2*x+2
+
+                    plt1 = plot(f,(0+rad,3-rad), gridlines='major')
+                    plt3 = plot(f,(3+rad,4))
+                    plt2 = plot(h,(-2,0))
+                    
+                    pt1 = circle((0,f(0)),rad, fill=False)
+                    pt2 = circle((0,2),rad, fill=True)
+                    pt3 = circle((3,3),rad, fill=False)
+
+                    plt = plt1 + plt2 + plt3 +pt1 + pt2 + pt3
+                    plt.set_axes_range(-2,4,-2,4)
+                    plt
+                </sageplot>
+
+                </image>    
+            </p>
+        </introduction>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    At which <m>x</m>-values is <m>f</m> <em>not</em> continuous?
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    The function <m>f(x)</m> is not continuous at
+                    <ul>
+                        <li>
+                            <m>x = 0</m> (a <em>jump</em> discontinuity); and
+                        </li>
+                        <li>
+                            <m>x = 3</m> (a <em>removable</em> discontinuity).
+                        </li>
+                    </ul>
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    At which <m>x</m>-values is <m>f</m> <em>not</em> differentiable?
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    The function <m>f</m> is not differentiable at
+                    <ul>
+                        <li>
+                            <m>x = 0</m> and <m>x = 3</m> (since <m>f</m> is not continuous at <m>x=0</m> or <m>x = 3</m>); and
+                        </li>
+                        <li>
+                            <m>x = 2</m> (since <m>f(x)</m> has a cusp at <m>x=2</m>.)
+                        </li>
+                    </ul>
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    On which intervals is the derivative <m>f'(x)</m> positive?
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    <m>f'(x)</m> is positive where <m>f(x)</m> is increasing. Thus, <m>f'(x)</m> is positive on the intervals
+                    <md>
+                        (-2,0) \cup (2,3) \cup (3,4).
+                    </md>                    
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    On which intervals is the derivative <m>f'(x)</m> negative?
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    <m>f'(x)</m> is negative where <m>f(x)</m> is decreasing. Thus, <m>f'(x)</m> is negative on the interval
+                    <md>
+                        (0,2).
+                    </md>                    
+                </p>
+
+                <figure>
+                    <caption>Graph of <m>f(x)</m> and <m>f'(x).</m></caption>
+                    <image width="75%">
+                        <shortdescription>Graph of <m>f(x)</m> and <m>f'(x)</m></shortdescription>
+                        <description><p>Graph of <m>f(x)</m> in blue and <m>f'(x)</m> in blue. The red curve is positive where the blue curve is increasing; the red curve is negative where the blue curve is decreasing. The red curve has a vertical asymptote at <m>x=2</m> since the blue curve has a cusp at <m>x=2</m>.</p></description>
+                        <sageplot label="midterm1_sol2">
+                            rad = 0.05
+                            disp= 0.02
+                            f(x) = (abs(x-2))^(2/3) + 2
+                            h(x) = 2*x+2
+                            g(x) = 2
+                            k(x) = (2/3)*(abs(x-2))^(-1/3)
+
+                            plt1 = plot(f,(0+rad,3-rad), gridlines='major', legend_label="$f(x)$")
+                            plt3 = plot(f,(3+rad,4))
+                            plt2 = plot(h,(-2,0))
+
+                            plt4 = plot(g,(-2,0), color="red", legend_label="$f'(x)$")
+                            plt5 = plot(-k,(0+rad,2), color="red")
+                            plt6 = plot(k,(3+rad,4), color="red")
+                            plt7 = plot(k,(2,3-rad), color="red")
+                            
+                            pt1 = circle((0,f(0)),rad, fill=False)
+                            pt2 = circle((0,2),rad, fill=True)
+                            pt3 = circle((3,3),rad, fill=False)
+
+                            pt4 = circle((0,2),rad, fill=False, color="red")
+                            pt5 = circle((3,k(3)),rad, fill=False, color="red")
+                            pt6 = circle((0,-k(0)),rad, fill=False, color="red")
+
+                            plt = plt1 + plt2 + plt3 +pt1 + pt2 + pt3 + plt4 + plt5 +plt6 +plt7 + pt4 + pt5 + pt6
+                            plt.set_axes_range(-2,4,-2,4)
+                            plt
+                        </sageplot>
+                    </image>
+                </figure>
+
+            </solution>
+        </task>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise>
+        <statement>
+            <p>
+                On the axes below, sketch a function <m>f(x)</m> which satisfies the following conditions.
+            </p>
+            <sidebyside widths="50% 50%" margins="auto" valign="top">
+            <p>
+                <ul>
+                    <li>
+                        The domain of <m>f</m> is <m>(-\infty,2) \cup (2,\infty)</m>;
+                    </li>
+                    <li>
+                        <m>f</m> is not continuous at <m>x=-1</m> or <m>x=2</m>, <m>f</m> is continuous at all other values of <m>x</m>;
+                    </li>
+
+                    <li>
+                        <m>\lim_{x \rightarrow 2^{-}}f(x)=\infty</m>
+                    </li>
+                    <li>
+                        <m>\lim_{x \rightarrow 2^{+}}f(x)=-\infty</m>
+                    </li>
+
+                </ul>
+                </p>
+                <p>
+                <ul>
+                    <li>
+                        <m>f(-1)=1</m>
+                    </li>
+                    
+                    <li>
+                        <m>\lim_{x \rightarrow -1^{+}}f(x)=2</m>
+                    </li>
+                    <li>
+                        <m>\lim_{x \rightarrow -1^{-}}f(x)=3</m>
+                    </li>
+                    <li>
+                        <m>\lim_{x \rightarrow \infty}f(x)=-\infty</m>
+                    </li>
+                    <li>
+                        <m>\lim_{x \rightarrow -\infty}f(x)=3</m>
+                    </li>
+                    
+                </ul>
+                </p>
+                
+            </sidebyside>
+                        <p>
+                <image>
+                    <sageplot label="midterm1_3">
+                        a = plot([])
+                        a.set_axes_range(-7,7,-7,7)
+                        a
+                    </sageplot>
+                </image>
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                There is no one right answer to this question.
+                The following is an example of a correct answer.
+            </p>
+            <p>
+                <image>
+                    <sageplot label="midterm1_sol3">
+                        rad = 0.05
+                        disp= 0.02
+                        f(x) = ((2)*3^(1/3))/((abs(x-2))^(1/3))
+                        h(x) = -x^3/((x-2))+30
+                        a = plot(f, (-1+rad,2)) + plot(3,(-7,-1-rad)) + plot(h,(2,7))
+
+                        pt1 = circle((-1,3), rad, fill=False)
+                        pt2 = circle((-1,2), rad, fill=False)
+                        pt3 = circle((-1,1), rad, fill=True)
+
+                        L = line([(2,-8),(2,8)], linestyle="--", color="green")
+
+                        a = a + pt1 + pt2 + pt3 + L
+                        a.set_axes_range(-7,7,-7,7)
+                        a
+                    </sageplot>
+                </image>
+            </p>
+        </solution>
+    </exercise>
+  </page>
+</worksheet>
