@@ -172,6 +172,51 @@ var ptx_lunr_docs = [
   "body": "  Let . Find the equation of the line tangent to the curve at .   "
 },
 {
+  "id": "ch--6",
+  "level": "1",
+  "url": "ch--6.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Recitation 5",
+  "body": " Recitation 5    Instructions: Clearly write first and last names of each member on the top of the pages.       Let . Find Give an exact answer, not a decimal approximation.      Let .     Derive the formula for using the quotient rule. Give an exact, simplified answer.      Find the equation of the line tangent to the curve at . Give an exact, simplified answer.      Find . Give an exact, simplified answer.      Find . Give an exact, simplified answer.         Suppose that , , , and . Find the following values.                           An object moves left and right on a smooth level surface with position function , where is is the position at time seconds, in centimeters. (A positive position means that the object is to the right of the zero position; negative position means that the object is to the left of the zero position).     Find the velocity at time .      Find the acceleration at time .      Find the position , velocity , and acceleration of the object at time seconds.      In what direction (left or right) is the object moving at that time?      Is the object speeding up or slowing down at that time?      "
+},
+{
+  "id": "ch--6-3-1",
+  "level": "2",
+  "url": "ch--6.html#ch--6-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Let . Find Give an exact answer, not a decimal approximation.   "
+},
+{
+  "id": "ch--6-3-2",
+  "level": "2",
+  "url": "ch--6.html#ch--6-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Let .     Derive the formula for using the quotient rule. Give an exact, simplified answer.      Find the equation of the line tangent to the curve at . Give an exact, simplified answer.      Find . Give an exact, simplified answer.      Find . Give an exact, simplified answer.    "
+},
+{
+  "id": "ch--6-4-1",
+  "level": "2",
+  "url": "ch--6.html#ch--6-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Suppose that , , , and . Find the following values.                        "
+},
+{
+  "id": "ch--6-4-2",
+  "level": "2",
+  "url": "ch--6.html#ch--6-4-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  An object moves left and right on a smooth level surface with position function , where is is the position at time seconds, in centimeters. (A positive position means that the object is to the right of the zero position; negative position means that the object is to the left of the zero position).     Find the velocity at time .      Find the acceleration at time .      Find the position , velocity , and acceleration of the object at time seconds.      In what direction (left or right) is the object moving at that time?      Is the object speeding up or slowing down at that time?    "
+},
+{
   "id": "root-1-2-5-2",
   "level": "1",
   "url": "root-1-2-5-2.html",
@@ -242,6 +287,87 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  The graph of a function , with in the interval is given below. Use the graph to answer the following questions about the derivative .          On what interval(s) is positive?    The derivative gives the slop of the tangent line to the curve at . Thus, is positive when is increasing. From the picture is increasing up until and starts increasing again at Thus, is positive on If we assume that continues to decrease before , and increases after , we could say that is positive on I accepted either answer as correct.      On what interval(s) is negative?    By the same reasoning as in part (a), will be negative where the graph of is decreasing. From the picture, is decreasing between and . Thus, is negative on the interval.    Plot of and .        "
+},
+{
+  "id": "root-1-2-6-2",
+  "level": "1",
+  "url": "root-1-2-6-2.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Midterm 1",
+  "body": " Midterm 1    Clearly write first and last names of each member on the top of this page.  This is a closed book exam.  No notes or books allowed;  No calculators or electronics allowed.    If a limit does not exist in a limit question, write DNE . Note that and can be possible answers to limit questions.                   Answer the following questions based on the graph shown. If the answer does not exist, write DNE .                                                                             Calculate the following limits.          Note, if , is continuos at (we are not dividing by at ). Thus            Note for all . Multiplying across by (which is never negative), we have Since , it follows by the Squeeze theorem that            This follows the same reasoning as part (a). The function is continuous and defined at , and hence          Calculate the following limits.          Dividing top and bottom by the (the highest power of in the denominator) we get             For large , dominates the and terms. That is, goes to infinity far quicker than goes to . Thus            Cosine oscillates between and infinitely often as goes to infinity. More precisely, and for all integers . Thus, does not approach any one value as increases. Hence  does not exist.             Consider the parabola .     Find the slope of the tangent line to the parabola at the point     Using the power rule, we have Hence, the slope at , is       Find the equation of the tangent line to the parabola at the point     The equation of a line through a point with slope is Here, we want a line through (from the question), with slope (from part (a)). Hence the equation of tangent line through is Or          Let . Use the definition of the derivative (i.e. the limit formula for derivatives) to calculate .    The derivative is given by, Thus, That is,       Calculate the derivative for each of the following functions. (You can use any method to find your answer.)          Using the power rule  Hence            We can rewrite as Using the power rule to differentiate we get So     Though it wasn't expected on this exam, one can also use the quotient rule to evaluate . Using the quotient rule we get Note, this is the same answer we got using the power rule.         Below is the graph of a function for between and . That is, is in the interval Answer the following questions based on the graph.          At which -values is  not continuous?    The function is not continuous at   (a jump discontinuity); and   (a removable discontinuity).        At which -values is  not differentiable?    The function is not differentiable at   and (since is not continuous at or ); and   (since has a cusp at .)        On which intervals is the derivative positive?     is positive where is increasing. Thus, is positive on the intervals       On which intervals is the derivative negative?     is negative where is decreasing. Thus, is negative on the interval    Graph of and   Graph of and  Graph of in blue and in blue. The red curve is positive where the blue curve is increasing; the red curve is negative where the blue curve is decreasing. The red curve has a vertical asymptote at since the blue curve has a cusp at .            On the axes below, sketch a function which satisfies the following conditions.     The domain of is ;   is not continuous at or , is continuous at all other values of ;                                     There is no one right answer to this question. The following is an example of a correct answer.          "
+},
+{
+  "id": "root-1-2-6-2-4-1",
+  "level": "2",
+  "url": "root-1-2-6-2.html#root-1-2-6-2-4-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Answer the following questions based on the graph shown. If the answer does not exist, write DNE .                                                                          "
+},
+{
+  "id": "root-1-2-6-2-4-2",
+  "level": "2",
+  "url": "root-1-2-6-2.html#root-1-2-6-2-4-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Calculate the following limits.          Note, if , is continuos at (we are not dividing by at ). Thus            Note for all . Multiplying across by (which is never negative), we have Since , it follows by the Squeeze theorem that            This follows the same reasoning as part (a). The function is continuous and defined at , and hence     "
+},
+{
+  "id": "root-1-2-6-2-5-1",
+  "level": "2",
+  "url": "root-1-2-6-2.html#root-1-2-6-2-5-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Calculate the following limits.          Dividing top and bottom by the (the highest power of in the denominator) we get             For large , dominates the and terms. That is, goes to infinity far quicker than goes to . Thus            Cosine oscillates between and infinitely often as goes to infinity. More precisely, and for all integers . Thus, does not approach any one value as increases. Hence  does not exist.          "
+},
+{
+  "id": "root-1-2-6-2-5-2",
+  "level": "2",
+  "url": "root-1-2-6-2.html#root-1-2-6-2-5-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  Consider the parabola .     Find the slope of the tangent line to the parabola at the point     Using the power rule, we have Hence, the slope at , is       Find the equation of the tangent line to the parabola at the point     The equation of a line through a point with slope is Here, we want a line through (from the question), with slope (from part (a)). Hence the equation of tangent line through is Or     "
+},
+{
+  "id": "root-1-2-6-2-6-1",
+  "level": "2",
+  "url": "root-1-2-6-2.html#root-1-2-6-2-6-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Let . Use the definition of the derivative (i.e. the limit formula for derivatives) to calculate .    The derivative is given by, Thus, That is,    "
+},
+{
+  "id": "root-1-2-6-2-6-2",
+  "level": "2",
+  "url": "root-1-2-6-2.html#root-1-2-6-2-6-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  Calculate the derivative for each of the following functions. (You can use any method to find your answer.)          Using the power rule  Hence            We can rewrite as Using the power rule to differentiate we get So     Though it wasn't expected on this exam, one can also use the quotient rule to evaluate . Using the quotient rule we get Note, this is the same answer we got using the power rule.    "
+},
+{
+  "id": "root-1-2-6-2-7-1",
+  "level": "2",
+  "url": "root-1-2-6-2.html#root-1-2-6-2-7-1",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "  Below is the graph of a function for between and . That is, is in the interval Answer the following questions based on the graph.          At which -values is  not continuous?    The function is not continuous at   (a jump discontinuity); and   (a removable discontinuity).        At which -values is  not differentiable?    The function is not differentiable at   and (since is not continuous at or ); and   (since has a cusp at .)        On which intervals is the derivative positive?     is positive where is increasing. Thus, is positive on the intervals       On which intervals is the derivative negative?     is negative where is decreasing. Thus, is negative on the interval    Graph of and   Graph of and  Graph of in blue and in blue. The red curve is positive where the blue curve is increasing; the red curve is negative where the blue curve is decreasing. The red curve has a vertical asymptote at since the blue curve has a cusp at .       "
+},
+{
+  "id": "root-1-2-6-2-8-1",
+  "level": "2",
+  "url": "root-1-2-6-2.html#root-1-2-6-2-8-1",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "",
+  "body": "  On the axes below, sketch a function which satisfies the following conditions.     The domain of is ;   is not continuous at or , is continuous at all other values of ;                                     There is no one right answer to this question. The following is an example of a correct answer.        "
 }
 ]
 
