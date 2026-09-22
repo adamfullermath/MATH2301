@@ -383,7 +383,31 @@
                 <md>
                     f'(x) = 2x-2.
                 </md>
+                Evaluating at <m>x=2</m> we have
+                <md>
+                    f'(2)=2(2)-2=2.
+                </md>
+            </p>
+        </solution>
+
+        <solution>
+            <p>
+                We can evaluate <m>f'(2)</m> directly, without first finding <m>f'(x).</m>
+                <md>
+                    f'(2) = \lim_{h\rightarrow 0}\frac{f(2+h)-f(2)}{h}.
+                </md>
+                Using <m>f(2)=(2)^2-2(2)=0</m> and
+                <md>
+                    f(2+h)=(2+h)^2 - 2(2+h)=4+4h+h^2-(4+2h)=h^2+2h
+                </md>
                 
+                Hence
+                <md>
+                    <mrow>f'(2) \amp =  \lim_{h\rightarrow 0}\frac{h^2+2h-0}{h}</mrow>
+                    <mrow> \amp  =  \lim_{h\rightarrow 0}h+2 </mrow>
+                    <mrow> \amp = 2. </mrow>
+                </md>
+                That is, <m>f'(2)=2.</m>
             </p>
         </solution>
     </exercise>
