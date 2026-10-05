@@ -1,16 +1,188 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet>
-  <title>Quiz 2</title>
+  <title>Quiz 3</title>
 
   <introduction>
     <p>
       <alert>Answer all questions. Show your work.</alert>
         Clearly write your name on the top of the page.
+        Differentiate each of the following.
     </p>
   </introduction>
 
   <page>
+    <exercise workspace="1in"> 
+      <statement>
+        <p>
+          <m>f(x) = 2.5 x^2 - x + 4.2</m>.
+        </p>
+      </statement>
+
+      <solution>
+        <p>
+          We will use the power rule to answer this.
+          <md>
+            f'(x) = (2.5)2x - 1 + 0.
+          </md>
+          That is,
+          <md>
+            f'(x) = 5x -1.
+          </md>
+        </p>
+      </solution>
+    </exercise>
+
+    <exercise workspace="2in">
+      <statement>
+        <p>
+          <m>f(t) = t^4 \cos(t) </m>.
+        </p>
+      </statement>
+
+      <solution>
+        <p>
+          To differentiate we will use the product rule.
+          Note that
+          <md>
+            f(t) = h(t)g(t)
+          </md>
+          where <m>h(t)=t^4</m> and <m>g(t) = \cos(t)</m>.
+          Hence,
+          <md>
+            f'(t) = h'(t)g(t) + h(t)g'(t).
+          </md>
+          Using the power rule,
+          <m>
+            h'(t) = 4t^3.
+          </m>
+          Also, <m>g'(t)=-\sin(t)</m>.
+          Hence,
+          <md>
+            f'(t) = 4t^3 \cos(t) + t^4(-\sin(t)).
+          </md>
+          That is,
+          <md>
+            f'(t) = 4t^3 \cos(t) - t^4\sin(t).
+          </md>
+          
+        </p>
+      </solution>
+    </exercise>
+
+
+    <exercise workspace="2in">
+      <statement>
+        <p>
+          <m>F(y) = \left(\frac{1}{y^2}-\frac{1}{y^4}\right)(y + 8y^3).</m>    
+        </p>
+      </statement>
+      <solution>
+        <p>
+          Note that
+          <md>
+            <mrow>F(y) \amp = \left(\frac{1}{y^2}-\frac{1}{y^4}\right)(y + 8y^3) = \frac{1}{y}+8y-\frac{1}{y^3} - \frac{8}{y}</mrow>
+            <mrow> \amp = 8y - y^{-3} - 7y^{-1}. </mrow>
+          </md>
+          Hence, using the power rule,
+          <md>
+            F'(y) = 8 + 3 y^{-4} + 7y^{-2} = 8 + \frac{3}{y^4} + \frac{7}{y^2}.
+          </md>
+        </p>
+      </solution>
+
+      <solution>
+        <p>
+          We can also answer this question using the product rule.
+          Let
+          <md>
+            h(y) = \frac{1}{y^2}-\frac{1}{y^4} \text{ and } g(y) = y + 8y^3.
+          </md>
+          Then, <m>f'(y)=h'(y)g(y)+h(y)g'(y).</m>
+          Using the power rule to calculate each of <m>h'(y)</m> and <m>g'(y)</m>, we get
+          <md>
+            <mrow>f'(y) \amp= \left(\frac{-2}{y^3} + \frac{4}{y^5}\right) ( y+8y^3 ) +  \left(\frac{1}{y^2}-\frac{1}{y^4}\right)(1 + 24y^2)</mrow>
+            <mrow> \amp = \frac{-2}{y^2} -16 + \frac{4}{y^4} +\frac{32}{y^2} + \frac{1}{y^2} +24 -\frac{1}{y^4} - \frac{24}{y^2} </mrow>
+            <mrow> \amp = \frac{7}{y^2} + 8 + \frac{3}{y^4}. </mrow>
+          </md>
+          Note that we get the same answer, no matter how we differentiate <m>f(y)</m>.
+          However, using the power rule in Solution 1 was simpler.
+        </p>
+      </solution>
+    </exercise>
+
+    </page>
+    <page>
+
+    <exercise workspace="2in">
+    <statement>
+      <p>
+        <m>f(x) = \sin(x^2+1).</m>
+      </p>
+    </statement>
+      
+    <solution>
+      <p>
+        To answer this we will use the chain rule.
+        We can write <m>f(x)</m> as <m>f(x) = h(g(x))</m> where <m>h(x) = \sin(x)</m> and <m>g(x) = x^2 +1.</m>
+        By the chain rule,
+        <md>
+          f'(x) = h'(g(x))\cdot g'(x).
+        </md>
+        Thus,
+        <md>
+          f'(x) = \cos(x^2 + 1) (2x).
+        </md>
+        That is,
+        <md>
+          f'(x) = 2x \cos(x^2 + 1).
+        </md>
+        
+      </p>
+    </solution>
+    </exercise>
+
+    <exercise workspace="2in">
+    <statement>
+      <p>
+        <m> h(r) = \frac{r}{\sqrt{r^2+2}}</m>.
+      </p>
+    </statement>
+    
+    <solution>
+      <p>
+        We will use the quotient rule here.
+        <md>
+          h(r) = \frac{f(r)}{g(r)}
+        </md>
+        for <m>f(r) = r</m> and <m>g(r) = \sqrt{r^2 + 2}.</m>
+        Thus,
+        <md>
+          <mrow> h'(r) \amp = \frac{f'(r)g(r) - f(r)g'(r)}{[g(r)]^2} </mrow>
+          <mrow> \amp \frac{(1)\sqrt{r^2 + 2} - r\left(\frac{1}{2}(r^2 + 2)^{-1/2}(2r) \right)}{r^2 + 2}</mrow>
+          <mrow> \amp = \frac{(r^2 + 2)-r^2}{(r^2 + 2)^{\frac{3}{2}}} </mrow>
+          <mrow> \amp = \frac{2}{(r^2 + 2)^{\frac{3}{2}}}.</mrow>
+        </md>
+      </p>
+    </solution>
+
+    <solution>
+      <p>
+        We can also answer this question using the product rule. Note that
+        <md>
+          h(r) = r (r^2+2)^{-1/2}.
+        </md>
+        Hence
+        <md>
+          <mrow>h'(r) \amp = (1)(r^2+2)^{-1/2} + r \left(\frac{-1}{2}(r^2+2)^{-3/2}(2r) \right) </mrow>
+          <mrow> \amp = \frac{1}{\sqrt{r^2+2}} - \frac{r^2}{(r^2+2)^{3/2}}</mrow>
+          <mrow> \amp = \frac{2}{(r^2 + 2)^{\frac{3}{2}}}.</mrow>
+        </md>
+        
+        
+      </p>
+    </solution>
+    </exercise>
 
   </page>
 </worksheet>

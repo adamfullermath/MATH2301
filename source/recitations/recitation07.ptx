@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Recitation 7</title>
+
+  <introduction>
+    <p>
+      <alert>Instructions: Clearly write first and last names of each member on the top of the pages.</alert>
+    </p>
+
+  </introduction>
+
+  <page>
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Find the linear approximation of the function <m>f(x) = \sqrt{1-x}</m> at <m>a=0</m>.
+                Use the linear approximation to approximate <m>\sqrt{0.9}</m> and <m>\sqrt{0.99}</m>.
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <introduction>
+        <p>
+            Consider the following data
+            <tabular>
+            <row bottom="minor">
+                <cell><em>Time <m>t</m> seconds</em></cell>
+                <cell>0</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>3</cell>
+                <cell>4</cell>
+                <cell>5</cell>
+            </row>
+
+            <row>
+                <cell><em>Value of <m>f(t)</m></em></cell>
+                <cell>1</cell>
+                <cell>3</cell>
+                <cell>4</cell>
+                <cell>4.5</cell>
+                <cell>3.5</cell>
+                <cell>1</cell>
+            </row>
+            </tabular>
+
+            We will use this data to approximate <m>f(4.1)</m> and <m>f(3.8)</m>.
+        </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Approximate <m>f'(4).</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Write a linear approximation for <m>f(t)</m> at <m>a =4</m>.
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Approximate <m>f(4.1)</m> and <m>f(3.8)</m>.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+  </page>
+
+ <page>
+    <exercise>
+        <introduction>
+            <p>
+                The edge of a cube was measured and found to be <m>30</m>cm, with a possible error in measurement of <m>0.1</m>cm. Use differentials to estimate the maximum possible error, relative error, and percentage error in computing        
+            </p>
+        </introduction>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    the volume of the cube;
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="2in">
+            <statement>
+                <p>
+                    the surface area of the cube.
+                </p>
+            </statement>
+        </task>
+
+    </exercise>
+ </page>
+  
+</worksheet>

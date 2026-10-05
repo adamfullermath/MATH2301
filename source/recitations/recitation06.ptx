@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Recitation 6</title>
+
+  <introduction>
+    <p>
+      <alert>Instructions: Clearly write first and last names of each member on the top of the pages.</alert>
+    </p>
+
+  </introduction>
+
+  <page>
+    <exercise workspace="1in">
+        <statement>
+            <p>
+                Find the <m>(x,y)</m>-coordinates for the points where the graph of
+                <md>
+                    f(x) = 2\sin(x) + (\sin(x))^2
+                </md>
+                has horizontal tangent line.
+            </p>
+        </statement>
+    </exercise>
+    
+    <exercise workspace="1in">
+        <statement>
+            <p>
+                Find <m>\frac{dy}{dx}</m> when 
+                <md>
+                    4 \sqrt{xy} = 1 + x^2y.
+                </md>              
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Suppose
+                <md>
+                    x^2 + 2xy -y^2 +x =2.
+                </md>
+                
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Differentiate implicitly to find <m>\frac{dy}{dx}.</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    Find the equation of the line tangent to the curve at the point <m>(1,2)</m>.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise workspace="2.5in">
+        <statement>
+            <p>
+                 A snowball melts so that its surface area decreases at a rate of <m>1</m> cm<m>^3</m>/min. Find the rate at which the diameter decreases when the diameter is <m>10</m>cm. Make a good drawing and use correct units in your answer.
+            </p>
+        </statement>
+
+        <hint>
+            <p>
+                You might need to look up a formula relating the surface are and diameter. Don't confuse radius and diameter.
+            </p>
+        </hint>
+    </exercise>
+
+    <exercise workspace="2.5in">
+        <statement>
+            <p>
+                A street light is mounted at the top of a 15-ft-tall pole. A man 6ft tall walks away from the pole with a speed of  5ft/s along a straight path. How fast is the tip of his shadow moving when he is  40ft from the pole? Make a good drawing and use correct units in your answer.
+            </p>
+        </statement>
+    </exercise>
+  </page>
+</worksheet>
