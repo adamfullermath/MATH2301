@@ -217,6 +217,96 @@ var ptx_lunr_docs = [
   "body": "  An object moves left and right on a smooth level surface with position function , where is is the position at time seconds, in centimeters. (A positive position means that the object is to the right of the zero position; negative position means that the object is to the left of the zero position).     Find the velocity at time .      Find the acceleration at time .      Find the position , velocity , and acceleration of the object at time seconds.      In what direction (left or right) is the object moving at that time?      Is the object speeding up or slowing down at that time?    "
 },
 {
+  "id": "ch--7",
+  "level": "1",
+  "url": "ch--7.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Recitation 6",
+  "body": " Recitation 6    Instructions: Clearly write first and last names of each member on the top of the pages.       Find the -coordinates for the points where the graph of has horizontal tangent line.      Find when       Suppose      Differentiate implicitly to find       Find the equation of the line tangent to the curve at the point .         A snowball melts so that its surface area decreases at a rate of cm \/min. Find the rate at which the diameter decreases when the diameter is cm. Make a good drawing and use correct units in your answer.    You might need to look up a formula relating the surface are and diameter. Don't confuse radius and diameter.      A street light is mounted at the top of a 15-ft-tall pole. A man 6ft tall walks away from the pole with a speed of 5ft\/s along a straight path. How fast is the tip of his shadow moving when he is 40ft from the pole? Make a good drawing and use correct units in your answer.     "
+},
+{
+  "id": "ch--7-3-1",
+  "level": "2",
+  "url": "ch--7.html#ch--7-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Find the -coordinates for the points where the graph of has horizontal tangent line.   "
+},
+{
+  "id": "ch--7-3-2",
+  "level": "2",
+  "url": "ch--7.html#ch--7-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Find when    "
+},
+{
+  "id": "ch--7-3-3",
+  "level": "2",
+  "url": "ch--7.html#ch--7-3-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Suppose      Differentiate implicitly to find       Find the equation of the line tangent to the curve at the point .    "
+},
+{
+  "id": "ch--7-4-1",
+  "level": "2",
+  "url": "ch--7.html#ch--7-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  A snowball melts so that its surface area decreases at a rate of cm \/min. Find the rate at which the diameter decreases when the diameter is cm. Make a good drawing and use correct units in your answer.    You might need to look up a formula relating the surface are and diameter. Don't confuse radius and diameter.   "
+},
+{
+  "id": "ch--7-4-2",
+  "level": "2",
+  "url": "ch--7.html#ch--7-4-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  A street light is mounted at the top of a 15-ft-tall pole. A man 6ft tall walks away from the pole with a speed of 5ft\/s along a straight path. How fast is the tip of his shadow moving when he is 40ft from the pole? Make a good drawing and use correct units in your answer.   "
+},
+{
+  "id": "ch--8",
+  "level": "1",
+  "url": "ch--8.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Recitation 7",
+  "body": " Recitation 7    Instructions: Clearly write first and last names of each member on the top of the pages.       Find the linear approximation of the function at . Use the linear approximation to approximate and .      Consider the following data   Time seconds  0  1  2  3  4  5    Value of  1  3  4  4.5  3.5  1   We will use this data to approximate and .     Approximate       Write a linear approximation for at .      Approximate and .         The edge of a cube was measured and found to be cm, with a possible error in measurement of cm. Use differentials to estimate the maximum possible error, relative error, and percentage error in computing     the volume of the cube;      the surface area of the cube.      "
+},
+{
+  "id": "ch--8-3-1",
+  "level": "2",
+  "url": "ch--8.html#ch--8-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Find the linear approximation of the function at . Use the linear approximation to approximate and .   "
+},
+{
+  "id": "ch--8-3-2",
+  "level": "2",
+  "url": "ch--8.html#ch--8-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Consider the following data   Time seconds  0  1  2  3  4  5    Value of  1  3  4  4.5  3.5  1   We will use this data to approximate and .     Approximate       Write a linear approximation for at .      Approximate and .    "
+},
+{
+  "id": "ch--8-4-1",
+  "level": "2",
+  "url": "ch--8.html#ch--8-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  The edge of a cube was measured and found to be cm, with a possible error in measurement of cm. Use differentials to estimate the maximum possible error, relative error, and percentage error in computing     the volume of the cube;      the surface area of the cube.    "
+},
+{
   "id": "root-1-2-5-2",
   "level": "1",
   "url": "root-1-2-5-2.html",
@@ -287,6 +377,60 @@ var ptx_lunr_docs = [
   "number": "4",
   "title": "",
   "body": "  The graph of a function , with in the interval is given below. Use the graph to answer the following questions about the derivative .          On what interval(s) is positive?    The derivative gives the slop of the tangent line to the curve at . Thus, is positive when is increasing. From the picture is increasing up until and starts increasing again at Thus, is positive on If we assume that continues to decrease before , and increases after , we could say that is positive on I accepted either answer as correct.      On what interval(s) is negative?    By the same reasoning as in part (a), will be negative where the graph of is decreasing. From the picture, is decreasing between and . Thus, is negative on the interval.    Plot of and .        "
+},
+{
+  "id": "root-1-2-5-4",
+  "level": "1",
+  "url": "root-1-2-5-4.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz 3",
+  "body": " Quiz 3    Answer all questions. Show your work. Clearly write your name on the top of the page. Differentiate each of the following.       .    We will use the power rule to answer this. That is,        .    To differentiate we will use the product rule. Note that where and . Hence, Using the power rule, Also, . Hence, That is,            Note that Hence, using the power rule,     We can also answer this question using the product rule. Let Then, Using the power rule to calculate each of and , we get Note that we get the same answer, no matter how we differentiate . However, using the power rule in Solution 1 was simpler.             To answer this we will use the chain rule. We can write as where and By the chain rule, Thus, That is,        .    We will use the quotient rule here. for and Thus,     We can also answer this question using the product rule. Note that Hence      "
+},
+{
+  "id": "root-1-2-5-4-3-1",
+  "level": "2",
+  "url": "root-1-2-5-4.html#root-1-2-5-4-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "   .    We will use the power rule to answer this. That is,    "
+},
+{
+  "id": "root-1-2-5-4-3-2",
+  "level": "2",
+  "url": "root-1-2-5-4.html#root-1-2-5-4-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "   .    To differentiate we will use the product rule. Note that where and . Hence, Using the power rule, Also, . Hence, That is,    "
+},
+{
+  "id": "root-1-2-5-4-3-3",
+  "level": "2",
+  "url": "root-1-2-5-4.html#root-1-2-5-4-3-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "       Note that Hence, using the power rule,     We can also answer this question using the product rule. Let Then, Using the power rule to calculate each of and , we get Note that we get the same answer, no matter how we differentiate . However, using the power rule in Solution 1 was simpler.   "
+},
+{
+  "id": "root-1-2-5-4-4-1",
+  "level": "2",
+  "url": "root-1-2-5-4.html#root-1-2-5-4-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "       To answer this we will use the chain rule. We can write as where and By the chain rule, Thus, That is,    "
+},
+{
+  "id": "root-1-2-5-4-4-2",
+  "level": "2",
+  "url": "root-1-2-5-4.html#root-1-2-5-4-4-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "   .    We will use the quotient rule here. for and Thus,     We can also answer this question using the product rule. Note that Hence    "
 },
 {
   "id": "root-1-2-6-2",
