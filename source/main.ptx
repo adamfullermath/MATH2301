@@ -24,6 +24,7 @@
             <xi:include href="./recitations/recitation05.ptx"/>
             <xi:include href="./recitations/recitation06.ptx"/>
             <xi:include href="./recitations/recitation07.ptx"/>
+            <xi:include href="./recitations/recitation08.ptx"/>
       </chapter>
 
       <chapter>
@@ -31,6 +32,7 @@
           <xi:include href="./quizzes/quiz01.ptx"/>
           <xi:include href="./quizzes/quiz02.ptx"/>
           <xi:include href="./quizzes/quiz03.ptx"/>
+          <xi:include href="./quizzes/quiz04.ptx"/>
       </chapter>
 
       <chapter>

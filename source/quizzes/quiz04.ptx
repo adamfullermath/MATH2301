@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Quiz 4</title>
+
+  <introduction>
+    <p>
+      <alert>Answer all questions. Show your work.</alert>
+        Clearly write your first and last name on the top of the page.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Find <m>\frac{dy}{dx}</m> by implicit differentiation, when
+                <md>
+                    y\cos(x) = 2x^2 + 4y^2.
+                </md>
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                Differentiating both sides with respect to <m>x</m>, we have
+                <md>
+                    \frac{d}{dx}(y\cos(x)) = \frac{d}{dx}(2x^2 + 4y^2).
+                </md>
+                The left-hand side of the above equation is (using the product rule)
+                <md>
+                    <mrow> \frac{d}{dx}(y\cos(x)) \amp = y(-\sin(x))+ \frac{dy}{dx}\cos(x) </mrow>
+                    <mrow> \amp = \frac{dy}{dx}\cos(x) - y \sin(x). </mrow>
+                </md>
+                Differentiating the right-hand side we get
+                <md>
+                    \frac{d}{dx}(2x^2 + 4y^2) = 4x + 4y \frac{dy}{dx}.
+                </md>
+                Setting the left-hand side equal to right-hand side, we have
+                <md>
+                    \frac{dy}{dx}\cos(x) - y \sin(x) = 4x + 4y \frac{dy}{dx}.
+                </md>
+                Solving for <m>\frac{dy}{dx}</m> we get
+                <md>
+                    \frac{dy}{dx} = \frac{4x + y\sin(x)}{\cos(x)-4y}.
+                </md>
+            </p>
+        </solution>
+    </exercise>
+
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                The length of a rectangle is increasing at a rate of 8 cm/s and its width is increasing at a rate of 3 cm/s. When the length is 20 cm and the width is 10 cm, how fast is the area of the rectangle increasing?
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                Denote the area by <m>A</m>, the length by <m>l</m> and the width by <m>w</m>. Then
+                <md>
+                    A = wl \text{ cm}^2.
+                </md>
+                Differentiating <m>A</m> with respect to <m>t</m> we get
+                <md>
+                    \frac{dA}{dt} = w \frac{dl}{dt} + \frac{dw}{dt}l.
+                </md>
+                We are told
+                <md>
+                    \frac{dl}{dt} = 8 \text{ and } \frac{dw}{dt} = 3.
+                </md>
+                Hence when <m>l = 20</m> and <m>w = 10</m>, the rate of change of the area is
+                <md>
+                    \frac{dA}{dt} = (10)(8) + 3(20) = 80 + 60= 140 \text{ cm}^2/\text{sec}.
+                </md>
+                
+            
+            </p>
+        </solution>
+    </exercise>
+
+    <exercise workspace="0.5in">
+        <statement>
+            <p>
+                Suppose <m>f^{-1}(x)</m> is the inverse of a differentiable function <m>f(x)</m>.
+                Suppose <m>f(4)= 5</m>, and <m>f'(4)=\frac{2}{3}.</m>
+                Find <m>(f^{-1})'(5).</m>
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                The formula for the derivative of the inverse at a point <m>a</m> is
+                <md>
+                    (f^{-1})'(a) = \frac{1}{f'(f^{-1}(a))}.
+                </md>
+                As <m>f(4) = 5</m>, <m>f^{-1}(5) = 4</m>.
+                Thus
+                <md>
+                    (f^{-1})'(5) = \frac{1}{f'(f^{-1}(5))} = \frac{1}{f'(4)} = \frac{1}{\frac{2}{3}}=\frac{3}{2}.
+                </md>
+                
+            </p>
+        </solution>
+    </exercise>
+
+    </page>
+    <page>
+
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                The radius of a sphere is measured to be <m>10</m>cm with a possible error in measurement at most <m>0.01</m>cm. 
+                Find the maximum error in using this value of the radius to compute the volume of the sphere?
+                Recall that the volume <m>V</m> of a sphere with radius <m>r</m> is <m>V = \frac{4}{3}\pi r^3</m>.
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                The differential <m>dV</m> is defined by the formula
+                <md>
+                    dV = \left(\frac{dV}{dr}\right) dr.
+                </md>
+                If <m>V = \frac{4}{3}\pi r^3</m>, then
+                <md>
+                    \frac{dV}{dr} = 4\pi r^2.
+                </md>
+                With <m>r = 10</m> and <m>dr = 0.01</m>, we get
+                <md>
+                <mrow> dV \amp = 4\pi r^2 dr </mrow>
+                <mrow> \amp = 4\pi (10)^2 (0.01)</mrow>
+                <mrow> \amp = 4\pi.</mrow>
+                </md>
+                Thus the maximum error in calculating the volume is <m>4 \pi</m> cm<m>^3</m>.
+            </p>
+        </solution>
+    </exercise>
+
+
+        <exercise>
+        <introduction>
+            <p>
+                Let <m>f(x) = \sqrt{1+2x}</m>.
+            </p>
+        </introduction>
+
+        <task  workspace="1.5in">
+            <statement>
+                <p>
+                    Find the linear approximation <m>L(x)</m> of <m>f</m> at <m>a=4</m>.
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    The function <m>L(x)</m> is the tangent line of the curve <m>y = f(x)</m> at the point <m>(4,f(4))</m>.
+                    Note
+                    <md>
+                        f(4) = \sqrt{1 + 8} = 3,
+                    </md>
+                    <md>
+                        f'(x) = \frac{1}{2\sqrt{1+2x}}2 = \frac{1}{\sqrt{1+2x}},
+                    </md>
+                    and 
+                    <md>
+                        f'(4) = \frac{1}{3}.
+                    </md>
+                    Hence
+                    <md>
+                        L(x) = f'(4)(x-4) + f(4) = \frac{1}{3}(x-4) + 3.
+                    </md>
+                </p>
+            </solution>
+        </task>
+
+        <task  workspace="0.5in">
+            <statement>
+                <p>
+                    Approximate <m>f(4.1)</m> (using your linear approximation above).
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    <m>f(4.1)\approx L(4.1)</m>.
+                    Hence
+                    <md>
+                        f(4.1) \approx \frac{1}{3}(4.1 - 4) + 3 = \frac{1}{30} + 3 = \frac{91}{30}.
+                    </md>
+                    
+                </p>
+            </solution>
+        </task>
+    </exercise>
+
+
+  </page>
+</worksheet>

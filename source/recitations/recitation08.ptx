@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Recitation 8</title>
+
+  <introduction>
+    <p>
+      <alert>Instructions: Clearly write first and last names of each member on the top of the pages.</alert>
+    </p>
+
+  </introduction>
+
+  <page>
+    <p>
+        Differentiate each of the following.
+    </p>
+
+    <sidebyside>
+        <exercise workspace="1in">
+            <statement>
+                <p>
+                    <m>g(x) = 2 \sqrt{x} e^x</m>
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise workspace="1in">
+            <statement>
+                <p>
+                    <m>y = \frac{3x}{e^x}</m>
+                </p>
+            </statement>
+        </exercise>
+        </sidebyside>
+
+
+
+        <sidebyside>
+        <exercise workspace="1in">
+            <statement>
+                <p>
+                    <m>y = 10^{(3-x^5)}</m>
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise workspace="1in">
+            <statement>
+                <p>
+                    <m>y = \tan(e^t) + e^{\tan(t)}</m>
+                </p>
+            </statement>
+        </exercise>
+        </sidebyside>
+
+        <exercise workspace="1in">
+            <statement>
+                <p>
+                    <m>y = e^{(-2x)}\cos(3x)</m>
+                </p>
+            </statement>
+        </exercise>
+
+    <exercise>
+    <introduction>
+        <p>
+            Differentiate the following functions.
+            HINT: Simplify the functions first. Recall <m>\log_a(b^t)=t\log_a(b)</m> and <m>\log_a(\frac{b}{c})= \log_a(b)-\log_a(c)</m>.
+        </p>
+    </introduction>
+
+    <task workspace="1in">
+        <statement>
+            <p>
+                <m>y = 2x\log_{10}(\sqrt{x}).</m>
+            </p>
+        </statement>
+    </task>
+
+    <task workspace="1in">
+        <statement>
+            <p>
+                <m>G(x) = \ln\left(\frac{(2x+1)^5}{\sqrt{x^2+1}}\right)</m>
+            </p>
+        </statement>
+    </task>
+    </exercise>
+ </page>
+
+ <page>
+
+
+    <exercise>
+        <introduction>
+            <p>
+                Use logarithmic differentiation to find the derivative of the following functions.
+            </p>
+        </introduction>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>y = x^{\cos(x)}.</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>y =  (\cos(x))^x</m>
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Differentiate each of the following.
+            </p>
+        </introduction>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>f(x) = \tan^{-1}(x^2)</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>g(x) = (\tan^{-1}(x))^2</m>
+                </p>
+            </statement>
+        </task>
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>h(x) = \sin^{-1}(2x+1)</m>
+                </p>
+            </statement>
+        </task>
+    </exercise>
+ </page>
+  
+</worksheet>
