@@ -307,6 +307,87 @@ var ptx_lunr_docs = [
   "body": "  The edge of a cube was measured and found to be cm, with a possible error in measurement of cm. Use differentials to estimate the maximum possible error, relative error, and percentage error in computing     the volume of the cube;      the surface area of the cube.    "
 },
 {
+  "id": "ch--9",
+  "level": "1",
+  "url": "ch--9.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Recitation 8",
+  "body": " Recitation 8    Instructions: Clearly write first and last names of each member on the top of the pages.     Differentiate each of the following.                                           Differentiate the following functions. HINT: Simplify the functions first. Recall and .                      Use logarithmic differentiation to find the derivative of the following functions.                    Differentiate each of the following.                          "
+},
+{
+  "id": "ch--9-3-2-1",
+  "level": "2",
+  "url": "ch--9.html#ch--9-3-2-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "ch--9-3-2-2",
+  "level": "2",
+  "url": "ch--9.html#ch--9-3-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "ch--9-3-3-1",
+  "level": "2",
+  "url": "ch--9.html#ch--9-3-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "ch--9-3-3-2",
+  "level": "2",
+  "url": "ch--9.html#ch--9-3-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "ch--9-3-4",
+  "level": "2",
+  "url": "ch--9.html#ch--9-3-4",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "ch--9-3-5",
+  "level": "2",
+  "url": "ch--9.html#ch--9-3-5",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  Differentiate the following functions. HINT: Simplify the functions first. Recall and .                 "
+},
+{
+  "id": "ch--9-4-1",
+  "level": "2",
+  "url": "ch--9.html#ch--9-4-1",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "  Use logarithmic differentiation to find the derivative of the following functions.                 "
+},
+{
+  "id": "ch--9-4-2",
+  "level": "2",
+  "url": "ch--9.html#ch--9-4-2",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "",
+  "body": "  Differentiate each of the following.                        "
+},
+{
   "id": "root-1-2-5-2",
   "level": "1",
   "url": "root-1-2-5-2.html",
@@ -431,6 +512,60 @@ var ptx_lunr_docs = [
   "number": "5",
   "title": "",
   "body": "   .    We will use the quotient rule here. for and Thus,     We can also answer this question using the product rule. Note that Hence    "
+},
+{
+  "id": "root-1-2-5-5",
+  "level": "1",
+  "url": "root-1-2-5-5.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz 4",
+  "body": " Quiz 4    Answer all questions. Show your work. Clearly write your first and last name on the top of the page.      Find by implicit differentiation, when     Differentiating both sides with respect to , we have The left-hand side of the above equation is (using the product rule) Differentiating the right-hand side we get Setting the left-hand side equal to right-hand side, we have Solving for we get       The length of a rectangle is increasing at a rate of 8 cm\/s and its width is increasing at a rate of 3 cm\/s. When the length is 20 cm and the width is 10 cm, how fast is the area of the rectangle increasing?    Denote the area by , the length by and the width by . Then Differentiating with respect to we get We are told Hence when and , the rate of change of the area is       Suppose is the inverse of a differentiable function . Suppose , and Find     The formula for the derivative of the inverse at a point is As , . Thus         The radius of a sphere is measured to be cm with a possible error in measurement at most cm. Find the maximum error in using this value of the radius to compute the volume of the sphere? Recall that the volume of a sphere with radius is .    The differential is defined by the formula If , then With and , we get Thus the maximum error in calculating the volume is cm .      Let .     Find the linear approximation of at .    The function is the tangent line of the curve at the point . Note  and Hence       Approximate (using your linear approximation above).     . Hence       "
+},
+{
+  "id": "root-1-2-5-5-3-1",
+  "level": "2",
+  "url": "root-1-2-5-5.html#root-1-2-5-5-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Find by implicit differentiation, when     Differentiating both sides with respect to , we have The left-hand side of the above equation is (using the product rule) Differentiating the right-hand side we get Setting the left-hand side equal to right-hand side, we have Solving for we get    "
+},
+{
+  "id": "root-1-2-5-5-3-2",
+  "level": "2",
+  "url": "root-1-2-5-5.html#root-1-2-5-5-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  The length of a rectangle is increasing at a rate of 8 cm\/s and its width is increasing at a rate of 3 cm\/s. When the length is 20 cm and the width is 10 cm, how fast is the area of the rectangle increasing?    Denote the area by , the length by and the width by . Then Differentiating with respect to we get We are told Hence when and , the rate of change of the area is    "
+},
+{
+  "id": "root-1-2-5-5-3-3",
+  "level": "2",
+  "url": "root-1-2-5-5.html#root-1-2-5-5-3-3",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Suppose is the inverse of a differentiable function . Suppose , and Find     The formula for the derivative of the inverse at a point is As , . Thus    "
+},
+{
+  "id": "root-1-2-5-5-4-1",
+  "level": "2",
+  "url": "root-1-2-5-5.html#root-1-2-5-5-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  The radius of a sphere is measured to be cm with a possible error in measurement at most cm. Find the maximum error in using this value of the radius to compute the volume of the sphere? Recall that the volume of a sphere with radius is .    The differential is defined by the formula If , then With and , we get Thus the maximum error in calculating the volume is cm .   "
+},
+{
+  "id": "root-1-2-5-5-4-2",
+  "level": "2",
+  "url": "root-1-2-5-5.html#root-1-2-5-5-4-2",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Let .     Find the linear approximation of at .    The function is the tangent line of the curve at the point . Note  and Hence       Approximate (using your linear approximation above).     . Hence     "
 },
 {
   "id": "root-1-2-6-2",
