@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Midterm 1</title>
+
+  <!-- <introduction>
+    <p>
+      <alert>Instructions: Clearly write first and last names of each member on the top of the pages.</alert>
+    </p>
+
+  </introduction> -->
+
+  <page>
+        <p>
+            Clearly write first and last names of each member on the top of this page.
+        </p>
+        <p>
+            This is a closed book exam.
+            <ul>
+                <li>
+                    No notes or books allowed;
+                </li>
+                <li>
+                    No calculators or electronics allowed.
+                </li>
+            </ul>
+        </p>
+
+        <p>
+            If a limit does not exist in a limit question, write <em>DNE</em>. Note that <m>\infty</m> and <m>-\infty</m> can be possible answers to limit questions.
+        </p>
+
+        <p>
+            <ol marker="1.">
+                <li><fillin characters="1" />/ </li>
+                <li><fillin characters="1" />/ </li>
+                <li><fillin characters="1" />/ </li>
+                <li><fillin characters="1" />/ </li>
+                <li><fillin characters="1" />/ </li>
+                <li><fillin characters="1" />/ </li>
+                <li><fillin characters="1" />/ </li>
+                <li><fillin characters="1" />/ </li>
+            </ol>
+        </p>
+  </page>
+  
+  <page></page>
+    
+  <page>
+
+  </page>
+</worksheet>
