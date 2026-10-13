@@ -38,7 +38,7 @@
       <chapter>
         <title>Midterm Exams</title>
           <xi:include href="./exams/midterm01.ptx"/>
-          <xi:include href="./exams/midterm02.ptx"/>
+          <!-- <xi:include href="./exams/midterm02.ptx"/> -->
         
       </chapter>
       
