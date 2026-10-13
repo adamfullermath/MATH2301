@@ -647,15 +647,6 @@ var ptx_lunr_docs = [
   "number": "8",
   "title": "",
   "body": "  On the axes below, sketch a function which satisfies the following conditions.     The domain of is ;   is not continuous at or , is continuous at all other values of ;                                     There is no one right answer to this question. The following is an example of a correct answer.        "
-},
-{
-  "id": "root-1-2-6-3",
-  "level": "1",
-  "url": "root-1-2-6-3.html",
-  "type": "Worksheet",
-  "number": "",
-  "title": "Midterm 1",
-  "body": " Midterm 1    Clearly write first and last names of each member on the top of this page.  This is a closed book exam.  No notes or books allowed;  No calculators or electronics allowed.    If a limit does not exist in a limit question, write DNE . Note that and can be possible answers to limit questions.    \/  \/  \/  \/  \/  \/  \/  \/        "
 }
 ]
 
