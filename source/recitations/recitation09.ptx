@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Recitation 9</title>
+
+  <introduction>
+    <p>
+      <alert>Instructions: Clearly write first and last names of each member on the top of the pages.</alert>
+    </p>
+
+  </introduction>
+
+  <page>
+    <exercise>
+        <introduction>
+            <p>
+                Find the following limits.
+            </p>
+        </introduction>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>\lim_{x \rightarrow 3} \frac{x^2-9}{x^2-3x}</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>\lim_{x\rightarrow 0^+} \frac{\sin(x)}{1-\cos(x)}</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>\lim_{x \rightarrow 0} \frac{\tan^{-1}(5x)}{x}</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>\lim_{x\rightarrow \infty}x^4 e^{-x^3}</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>\lim_{x\rightarrow 0^+} (1+3x)^{1/x}</m>
+                </p>
+            </statement>
+        </task>
+    </exercise>
+ </page>
+  
+<page>
+<exercise workspace="2in">
+    <statement>
+        <p>
+            Find the absolute maximum value and the absolute minimum value of <m>f(x) = x\sqrt{4-x^2}</m> on the interval <m>[-1,2]</m>.
+        </p>
+    </statement>
+</exercise>
+
+<exercise workspace="2in">
+    <statement>
+        <p>
+            Find the absolute maximum value and the absolute minimum value of <m>f(x) = xe^{-x^2/8}</m> on the interval <m>[-1,4]</m>.
+        </p>
+    </statement>
+</exercise>
+</page>
+
+</worksheet>

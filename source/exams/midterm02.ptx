@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <worksheet>
-  <title>Midterm 1</title>
+  <title>Midterm 2</title>
 
   <!-- <introduction>
     <p>
@@ -32,14 +32,14 @@
 
         <p>
             <ol marker="1.">
-                <li><fillin characters="1" />/ </li>
-                <li><fillin characters="1" />/ </li>
-                <li><fillin characters="1" />/ </li>
-                <li><fillin characters="1" />/ </li>
-                <li><fillin characters="1" />/ </li>
-                <li><fillin characters="1" />/ </li>
-                <li><fillin characters="1" />/ </li>
-                <li><fillin characters="1" />/ </li>
+                <li><fillin characters="2" />/ 6</li>
+                <li><fillin characters="2" />/ 6</li>
+                <li><fillin characters="2" />/ 4</li>
+                <li><fillin characters="2" />/ 4</li>
+                <li><fillin characters="2" />/ 4</li>
+                <li><fillin characters="2" />/ 6</li>
+                <li><fillin characters="2" />/ 8</li>
+                <li><fillin characters="2" />/ 5</li>
             </ol>
         </p>
   </page>
@@ -48,5 +48,580 @@
     
   <page>
 
+     <exercise>
+        <introduction>
+            <p>
+                Calculate the following limits.
+            </p>
+        </introduction>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>\lim_{x\rightarrow 1}\frac{x^2-1}{x-1}.</m>
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    Note that <m>\frac{x^2-1}{x-1}</m> is not defined at <m>x=1</m>, so we cannot simply plug in <m>x=1</m>.
+                    Note that <m>x^2-1= (x-1)(x+1)</m>.
+                    Thus, if <m>x\neq 1</m>,
+                    <md>
+                        \frac{x^2-1}{x-1}= \frac{(x-1)(x+1)}{x-1}=x+1.
+                    </md>
+                    Hence,
+                    <md>
+                        \lim_{x\rightarrow 1}\frac{x^2-1}{x-1} = \lim_{x\rightarrow 1}(x+1)=1+1 =2.
+                    </md>
+                </p>
+            </solution>
+
+            <solution>
+                <p>
+                    Since <m>\lim_{x\rightarrow 1}x^2-1 = 0</m> and <m>\lim_{x\rightarrow 1}x-1=0</m>, we can also answer this question using L'Hospital's rule.
+                    We had not covered L'Hosptal's rule when we took this exam, so this was not the approach that was expected of you.
+                    Proceeding, we have
+                    <md>
+                    <mrow>  \lim_{x\rightarrow 1}\frac{x^2-1}{x-1} \amp \overset{\text{L'Hospital}}{=} \lim_{x\rightarrow 1}\frac{\frac{d}{dx}(x^2-1)}{\frac{d}{dx}(x-1)}  </mrow>
+                    <mrow> \amp = \frac{2x}{1} = 0. </mrow>
+                    </md>
+                    
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>\lim_{x\rightarrow 0}x^2 \sin\left(\frac{1}{x}\right).</m>
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    Note <m>-1\leq \sin(1/x)\leq 1</m> for all <m>x \neq 0</m>.
+                    Multiplying across by <m>x^2</m> (which is never negative), we have
+                    <md>
+                        -x^2 \leq x^2 \sin(1/x) \leq x^2.
+                    </md>
+                    Since <m>\lim_{x\rightarrow 0} x^2 = 0 = \lim_{x\rightarrow 0} -x^2</m>, it follows by the <em>Squeeze theorem</em> that
+                    <md>
+                        \lim_{x\rightarrow 0}x^2 \sin(1/x) = 0.
+                    </md>
+
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>\lim_{x \rightarrow \infty}\frac{2x^3 - 7x +5}{2x^3 +3x^2 + 1}</m>
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    We will multiply the top and bottom of the quotient by <m>1/x^3</m>, since <m>x^3</m> is the highest power of <m>x</m> in the denominator.
+                    <md>
+                        <mrow>\lim_{x \rightarrow \infty}\frac{2x^3 - 7x +5}{2x^3 +3x^2 + 1} \amp= \lim_{x \rightarrow \infty}\frac{(2x^3 - 7x +5)\frac{1}{x^3}}{(2x^3 +3x^2 + 1)\frac{1}{x^3}} </mrow>
+                        <mrow> \amp = \lim_{x \rightarrow \infty} \frac{2 - \frac{7}{x^2} + \frac{5}{x^3}}{2 + \frac{3}{x}+ \frac{1}{x^3}} </mrow>
+                        <mrow> \amp = \frac{2 - 0 + 0}{2 + 0 + 0}</mrow>
+                        <mrow> \amp = \frac{2}{2}=1. </mrow>
+                    </md>
+                    
+                </p>
+            </solution>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Give the derivative of the each of the following.
+            </p>
+        </introduction>
+
+        <task workspace="0.75">
+            <statement>
+                <p>
+                    <m>y = \frac{x^3}{2-x^2}</m>
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    To find the derivative we will use the quotient rule.
+                    <md>
+                        <mrow> \frac{dy}{dx} \amp = \frac{(2-x^2)\frac{d}{dx}(x^3) - x^3 \frac{d}{dx}(2-x^2)}{(2-x^2)^2} </mrow>
+                        <mrow> \amp = \frac{3x^2(2-x^2)-x^3(-2x)}{(2-x^2)^2}</mrow>
+                        <mrow> \amp = \frac{6x^2-x^4}{(2-x^2)^2}.</mrow>
+                    </md>
+                </p>
+            </solution>
+        </task>
+
+        <task  workspace="0.75">
+            <statement>
+                <p>
+                    <m>g(x) = 5\sqrt{x}(x^2 + x)</m>
+                </p>
+            </statement>
+            
+            <solution>
+                <p>
+                    We can rewrite <m>g(x)</m> as
+                    <md>
+                        g(x) = 5 (x^{5/2} + x^{3/2}).
+                    </md>
+                    Thus
+                    <md>
+                        g'(x) = 5 \left(\frac{5}{2}x^{3/2} + \frac{3}{2}x^{1/2}\right).
+                    </md>
+                </p>
+            </solution>
+
+            <solution>
+                <p>
+                    We can also answer this question using the product rule.
+                    <md>
+                        <mrow>g'(x) \amp =5\left(\sqrt{x}(2x+1) + \frac{1}{2\sqrt{x}}(x^2 +x)\right) </mrow>
+                        <mrow> \amp = 5 \left(\frac{5}{2}x^{3/2} + \frac{3}{2}x^{1/2}\right). </mrow>
+                    </md>
+                    
+                </p>
+            </solution>
+        </task>
+
+
+
+        <task  workspace="0.75">
+            <statement>
+                <p>
+                    <m>f(x) = \sin(x^2)</m>
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    To find the derivative, we will use the chain rule.
+                    <md>
+                        f'(x)=\cos(x^2) (2x) = 2x\cos(x^2).
+                    </md>
+                    
+                </p>
+            </solution>
+        </task>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Implicitly differentiate the following equation to find <m>\frac{dy}{dx}</m>.
+                <md>
+                    y\cos(x) = 2x^2 + 4y^2.
+                </md>
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                We have that
+                <md>
+                    \frac{d}{dx}(y\cos(x)) = \frac{d}{dx}(2x^2 + 4y^2).
+                </md>
+                Calculating the left-hand size we get
+                <md>
+                    \frac{d}{dx}(y\cos(x)) = \frac{dy}{dx}\cos(x) + y(-\sin(x))= \frac{dy}{dx}\cos(x) -y \sin(x).
+                </md>
+                And calculating the right-hand size we get
+                <md>
+                    \frac{d}{dx}(2x^2 + 4y^2) = 4x + 8y \frac{dy}{dx}.
+                </md>
+                Setting the left-hand side equal to the right-hand side, we get
+                <md>
+                    \frac{dy}{dx}\cos(x) -y \sin(x) = 4x + 8y \frac{dy}{dx}.
+                </md>
+                Solving for <m>\frac{dy}{dx}</m>, we get
+                <md>
+                    \frac{dy}{dx} = \frac{4x + y\sin(x)}{\cos(x) - 8y}.
+                </md>
+                
+            </p>
+        </solution>
+    </exercise>
+
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                The radius of a sphere is increasing at a rate of 4 mm/s. How fast is the volume increasing when the diameter is 10 mm?
+            </p>
+            <p>
+                Recall, the volume <m>V</m> of a sphere of radius <m>r</m> is given by <m>V=\frac{4}{3}\pi r^3</m> mm<m>^3</m>.
+            </p>
+        </statement>
+
+        <solution>
+            <p>
+                The rate of change of the volume with respect to time <m>t</m> is
+                <md>
+                    \frac{dV}{dt} = \frac{4}{3}\pi 3 r^2 \frac{dr}{dt} = 4\pi r^2 \frac{dr}{dt}.
+                </md>
+                We are told that <m>\frac{dr}{dt} = 4</m>.
+                Thus
+                <md>
+                    \frac{dV}{dt} = 16 \pi r^2.
+                </md>
+                When the diameter is <m>10</m>mm, the radius <m>r = 5</m>. 
+                Hence, when the diameter is <m>10</m>, the rate of change of the volume is 
+                <md>
+                    \frac{dV}{dt} = 16 \pi 5^2 = 400\pi \text{mm}^3\text{/sec}.
+                </md>
+                
+            </p>
+        </solution>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise>
+        <introduction>
+            <p>
+                Let <m>f(x) = \sqrt{1+3x}</m>.
+            </p>
+        </introduction>
+
+        <task workspace="1.5in">
+            <statement>
+                <p>
+                    Find the linearization <m>L(x)</m> of <m>f(x)</m> at <m>x = 5.</m>
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    The linearization <m>L(x)</m> is given by the formula
+                    <md>
+                        L(x) = f'(5)(x-5) + f(5).
+                    </md>
+                    Calculating the derivative, 
+                    <md>
+                        f'(x) = \frac{1}{2\sqrt{1+3x}}(3) = \frac{3}{2\sqrt{1+3x}}.
+                    </md>
+                    We have that
+                    <md>
+                        f(5) = \sqrt{1+15}=4 \text{ and } f'(5)=\frac{3}{2\sqrt{1+15}}=\frac{3}{8},
+                    </md>
+                    and so
+                    <md>
+                        L(x) = \frac{3}{8}(x-5) + 4.
+                    </md>
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="0.5in">
+            <statement>
+                <p>
+                    Approximate <m>f(5.1)</m> (using the linearization found in part (a)).
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    <md>
+                        f(5.1) \approx L(5.1),
+                    </md>
+                    and
+                    <md>
+                        L(5.1) = \frac{3}{8}(5.1-5)+ 4 = \frac{3}{80}+4 = \frac{323}{80}.
+                    </md>
+                    Thus
+                    <md>
+                        f(5.1) \approx \frac{323}{80} = 4.0375.
+                    </md>
+                    
+                </p>
+            </solution>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Differentiate the following.
+            </p>
+        </introduction>
+
+        <task workspace="0.75">
+            <statement>
+                <p>
+                    <m>y = \ln(x^2 - 6x + 1)</m>
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    Note that, <m>\frac{d}{dx}(\ln(x))=\frac{1}{x}</m>, and <m>\frac{d}{dx}(x^2-6x+1) = 2x -6</m>.
+                    Thus, by the chain rule,
+                    <md>
+                        \frac{dy}{dx} = \frac{1}{x^2 - 6x +1}(2x - 6) = \frac{2x-6}{x^2 - 6x +1}.
+                    </md>
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>f(x) = \sin^{-1}(x^2)</m>
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    Note that <m>\frac{d}{dx}(\sin^{-1}(x)) = \frac{1}{\sqrt{1-x^2}}</m>, and <m>\frac{d}{dx}(x^2)=2x</m>.
+                    Thus, by the chain rule,
+                    <md>
+                        f'(x) = \left(\frac{1}{\sqrt{1-x^2}}\right)(2x) = \frac{2x}{\sqrt{1-x^2}}.
+                    </md>
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                    <m>h(x) = e^{x^2-x}</m>
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    By the chain rule,
+                    <md>
+                        h'(x) = (2x-1)e^{x^2-x}.
+                    </md>
+                    
+                </p>
+            </solution>
+        </task>
+
+
+    </exercise>
+  </page>
+
+  <page>
+    <exercise>
+        <introduction>
+            <p>
+                Below is the graph of a function <m>f(x)</m> for <m>x</m> between <m>-2</m> and <m>4</m>.
+                That is, <m>x</m> is in the interval <m>[-2,4].</m>
+                Answer the following questions based on the graph.
+            </p>
+
+            <p>
+                <image width="30%">
+                <sageplot label="midterm2_2">
+                    rad = 0.05
+                    disp= 0.02
+                    f(x) = (abs(x-2))^(2/3) + 2
+                    h(x) = 2*x+2
+
+                    plt1 = plot(f,(0+rad,3-rad), gridlines='major')
+                    plt3 = plot(f,(3+rad,4))
+                    plt2 = plot(h,(-2,0))
+                    
+                    pt1 = circle((0,f(0)),rad, fill=False)
+                    pt2 = circle((0,2),rad, fill=True)
+                    pt3 = circle((3,3),rad, fill=False)
+
+                    plt = plt1 + plt2 + plt3 +pt1 + pt2 + pt3
+                    plt.set_axes_range(-2,4,-2,4)
+                    plt
+                </sageplot>
+
+                </image>    
+            </p>
+        </introduction>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    At which <m>x</m>-values is <m>f</m> <em>not</em> continuous?
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    The function <m>f(x)</m> is not continuous at
+                    <ul>
+                        <li>
+                            <m>x = 0</m> (a <em>jump</em> discontinuity); and
+                        </li>
+                        <li>
+                            <m>x = 3</m> (a <em>removable</em> discontinuity).
+                        </li>
+                    </ul>
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    At which <m>x</m>-values is <m>f</m> <em>not</em> differentiable?
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    The function <m>f</m> is not differentiable at
+                    <ul>
+                        <li>
+                            <m>x = 0</m> and <m>x = 3</m> (since <m>f</m> is not continuous at <m>x=0</m> or <m>x = 3</m>); and
+                        </li>
+                        <li>
+                            <m>x = 2</m> (since <m>f(x)</m> has a cusp at <m>x=2</m>.)
+                        </li>
+                    </ul>
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    On which intervals is the derivative <m>f'(x)</m> positive?
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    <m>f'(x)</m> is positive where <m>f(x)</m> is increasing. Thus, <m>f'(x)</m> is positive on the intervals
+                    <md>
+                        (-2,0) \cup (2,3) \cup (3,4).
+                    </md>                    
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="0.25in">
+            <statement>
+                <p>
+                    On which intervals is the derivative <m>f'(x)</m> negative?
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    <m>f'(x)</m> is negative where <m>f(x)</m> is decreasing. Thus, <m>f'(x)</m> is negative on the interval
+                    <md>
+                        (0,2).
+                    </md>                    
+                </p>
+
+                <figure>
+                    <caption>Graph of <m>f(x)</m> and <m>f'(x).</m></caption>
+                    <image width="75%">
+                        <shortdescription>Graph of <m>f(x)</m> and <m>f'(x)</m></shortdescription>
+                        <description><p>Graph of <m>f(x)</m> in blue and <m>f'(x)</m> in blue. The red curve is positive where the blue curve is increasing; the red curve is negative where the blue curve is decreasing. The red curve has a vertical asymptote at <m>x=2</m> since the blue curve has a cusp at <m>x=2</m>.</p></description>
+                        <sageplot label="midterm2_sol2">
+                            rad = 0.05
+                            disp= 0.02
+                            f(x) = (abs(x-2))^(2/3) + 2
+                            h(x) = 2*x+2
+                            g(x) = 2
+                            k(x) = (2/3)*(abs(x-2))^(-1/3)
+
+                            plt1 = plot(f,(0+rad,3-rad), gridlines='major', legend_label="$f(x)$")
+                            plt3 = plot(f,(3+rad,4))
+                            plt2 = plot(h,(-2,0))
+
+                            plt4 = plot(g,(-2,0), color="red", legend_label="$f'(x)$")
+                            plt5 = plot(-k,(0+rad,2), color="red")
+                            plt6 = plot(k,(3+rad,4), color="red")
+                            plt7 = plot(k,(2,3-rad), color="red")
+                            
+                            pt1 = circle((0,f(0)),rad, fill=False)
+                            pt2 = circle((0,2),rad, fill=True)
+                            pt3 = circle((3,3),rad, fill=False)
+
+                            pt4 = circle((0,2),rad, fill=False, color="red")
+                            pt5 = circle((3,k(3)),rad, fill=False, color="red")
+                            pt6 = circle((0,-k(0)),rad, fill=False, color="red")
+
+                            plt = plt1 + plt2 + plt3 +pt1 + pt2 + pt3 + plt4 + plt5 +plt6 +plt7 + pt4 + pt5 + pt6
+                            plt.set_axes_range(-2,4,-2,4)
+                            plt
+                        </sageplot>
+                    </image>
+                </figure>
+
+            </solution>
+        </task>
+    </exercise>
+  </page>
+
+    <page>
+    <exercise>
+        <statement>
+            <p>
+                On the axes below, sketch a function <m>f(x)</m> which satisfies the following conditions.
+            </p>
+            <sidebyside widths="50% 50%" margins="auto" valign="top">
+            <p>
+                <ul>
+                    <li>
+                        The domain of <m>f</m> is <m>(-\infty,3) \cup (3,\infty)</m>;
+                    </li>
+                    <li>
+                        <m>f</m> is not continuous at <m>x=-1</m> or <m>x=3</m>, <m>f</m> is continuous at all other values of <m>x</m>;
+                    </li>
+
+                    <li>
+                        <m>\lim_{x \rightarrow 3^{-}}f(x)=-\infty</m>
+                    </li>
+                    <li>
+                        <m>\lim_{x \rightarrow 3^{+}}f(x)=-\infty</m>
+                    </li>
+
+                </ul>
+                </p>
+                <p>
+                <ul>
+                    <li>
+                        <m>f(-1)=1</m>
+                    </li>
+                    
+                    <li>
+                        <m>\lim_{x \rightarrow -1^{+}}f(x)=2</m>
+                    </li>
+                    <li>
+                        <m>\lim_{x \rightarrow -1^{-}}f(x)=3</m>
+                    </li>
+                    <li>
+                        <m>\lim_{x \rightarrow \infty}f(x)=2</m>
+                    </li>
+                    <li>
+                        <m>\lim_{x \rightarrow -\infty}f(x)=-\infty</m>
+                    </li>
+                    
+                </ul>
+                </p>
+                
+            </sidebyside>
+                        <p>
+                <image>
+                    <sageplot label="midterm2_3">
+                        a = plot([])
+                        a.set_axes_range(-7,7,-7,7)
+                        a
+                    </sageplot>
+                </image>
+            </p>
+        </statement>
+    </exercise>
   </page>
 </worksheet>

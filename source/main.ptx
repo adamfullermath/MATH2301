@@ -25,6 +25,7 @@
             <xi:include href="./recitations/recitation06.ptx"/>
             <xi:include href="./recitations/recitation07.ptx"/>
             <xi:include href="./recitations/recitation08.ptx"/>
+            <xi:include href="./recitations/recitation09.ptx"/>
       </chapter>
 
       <chapter>
@@ -38,7 +39,7 @@
       <chapter>
         <title>Midterm Exams</title>
           <xi:include href="./exams/midterm01.ptx"/>
-          <!-- <xi:include href="./exams/midterm02.ptx"/> -->
+          <xi:include href="./exams/midterm02.ptx"/>
         
       </chapter>
       
