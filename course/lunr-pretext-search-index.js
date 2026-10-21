@@ -388,6 +388,42 @@ var ptx_lunr_docs = [
   "body": "  Differentiate each of the following.                        "
 },
 {
+  "id": "ch--10",
+  "level": "1",
+  "url": "ch--10.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Recitation 9",
+  "body": " Recitation 9    Instructions: Clearly write first and last names of each member on the top of the pages.       Find the following limits.                                           Find the absolute maximum value and the absolute minimum value of on the interval .      Find the absolute maximum value and the absolute minimum value of on the interval .     "
+},
+{
+  "id": "ch--10-3-1",
+  "level": "2",
+  "url": "ch--10.html#ch--10-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Find the following limits.                                      "
+},
+{
+  "id": "ch--10-4-1",
+  "level": "2",
+  "url": "ch--10.html#ch--10-4-1",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Find the absolute maximum value and the absolute minimum value of on the interval .   "
+},
+{
+  "id": "ch--10-4-2",
+  "level": "2",
+  "url": "ch--10.html#ch--10-4-2",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Find the absolute maximum value and the absolute minimum value of on the interval .   "
+},
+{
   "id": "root-1-2-5-2",
   "level": "1",
   "url": "root-1-2-5-2.html",
@@ -647,6 +683,87 @@ var ptx_lunr_docs = [
   "number": "8",
   "title": "",
   "body": "  On the axes below, sketch a function which satisfies the following conditions.     The domain of is ;   is not continuous at or , is continuous at all other values of ;                                     There is no one right answer to this question. The following is an example of a correct answer.        "
+},
+{
+  "id": "root-1-2-6-3",
+  "level": "1",
+  "url": "root-1-2-6-3.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Midterm 2",
+  "body": " Midterm 2    Clearly write first and last names of each member on the top of this page.  This is a closed book exam.  No notes or books allowed;  No calculators or electronics allowed.    If a limit does not exist in a limit question, write DNE . Note that and can be possible answers to limit questions.    \/ 6  \/ 6  \/ 4  \/ 4  \/ 4  \/ 6  \/ 8  \/ 5         Calculate the following limits.          Note that is not defined at , so we cannot simply plug in . Note that . Thus, if , Hence,     Since and , we can also answer this question using L'Hospital's rule. We had not covered L'Hosptal's rule when we took this exam, so this was not the approach that was expected of you. Proceeding, we have            Note for all . Multiplying across by (which is never negative), we have Since , it follows by the Squeeze theorem that            We will multiply the top and bottom of the quotient by , since is the highest power of in the denominator.        Give the derivative of the each of the following.          To find the derivative we will use the quotient rule.            We can rewrite as Thus     We can also answer this question using the product rule.            To find the derivative, we will use the chain rule.          Implicitly differentiate the following equation to find .     We have that Calculating the left-hand size we get And calculating the right-hand size we get Setting the left-hand side equal to the right-hand side, we get Solving for , we get       The radius of a sphere is increasing at a rate of 4 mm\/s. How fast is the volume increasing when the diameter is 10 mm?  Recall, the volume of a sphere of radius is given by mm .    The rate of change of the volume with respect to time is We are told that . Thus When the diameter is mm, the radius . Hence, when the diameter is , the rate of change of the volume is         Let .     Find the linearization of at     The linearization is given by the formula Calculating the derivative, We have that and so       Approximate (using the linearization found in part (a)).     and Thus        Differentiate the following.          Note that, , and . Thus, by the chain rule,            Note that , and . Thus, by the chain rule,            By the chain rule,          Below is the graph of a function for between and . That is, is in the interval Answer the following questions based on the graph.          At which -values is  not continuous?    The function is not continuous at   (a jump discontinuity); and   (a removable discontinuity).        At which -values is  not differentiable?    The function is not differentiable at   and (since is not continuous at or ); and   (since has a cusp at .)        On which intervals is the derivative positive?     is positive where is increasing. Thus, is positive on the intervals       On which intervals is the derivative negative?     is negative where is decreasing. Thus, is negative on the interval    Graph of and   Graph of and  Graph of in blue and in blue. The red curve is positive where the blue curve is increasing; the red curve is negative where the blue curve is decreasing. The red curve has a vertical asymptote at since the blue curve has a cusp at .            On the axes below, sketch a function which satisfies the following conditions.     The domain of is ;   is not continuous at or , is continuous at all other values of ;                                      "
+},
+{
+  "id": "root-1-2-6-3-4-1",
+  "level": "2",
+  "url": "root-1-2-6-3.html#root-1-2-6-3-4-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Calculate the following limits.          Note that is not defined at , so we cannot simply plug in . Note that . Thus, if , Hence,     Since and , we can also answer this question using L'Hospital's rule. We had not covered L'Hosptal's rule when we took this exam, so this was not the approach that was expected of you. Proceeding, we have            Note for all . Multiplying across by (which is never negative), we have Since , it follows by the Squeeze theorem that            We will multiply the top and bottom of the quotient by , since is the highest power of in the denominator.     "
+},
+{
+  "id": "root-1-2-6-3-4-2",
+  "level": "2",
+  "url": "root-1-2-6-3.html#root-1-2-6-3-4-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Give the derivative of the each of the following.          To find the derivative we will use the quotient rule.            We can rewrite as Thus     We can also answer this question using the product rule.            To find the derivative, we will use the chain rule.     "
+},
+{
+  "id": "root-1-2-6-3-5-1",
+  "level": "2",
+  "url": "root-1-2-6-3.html#root-1-2-6-3-5-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Implicitly differentiate the following equation to find .     We have that Calculating the left-hand size we get And calculating the right-hand size we get Setting the left-hand side equal to the right-hand side, we get Solving for , we get    "
+},
+{
+  "id": "root-1-2-6-3-5-2",
+  "level": "2",
+  "url": "root-1-2-6-3.html#root-1-2-6-3-5-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  The radius of a sphere is increasing at a rate of 4 mm\/s. How fast is the volume increasing when the diameter is 10 mm?  Recall, the volume of a sphere of radius is given by mm .    The rate of change of the volume with respect to time is We are told that . Thus When the diameter is mm, the radius . Hence, when the diameter is , the rate of change of the volume is    "
+},
+{
+  "id": "root-1-2-6-3-6-1",
+  "level": "2",
+  "url": "root-1-2-6-3.html#root-1-2-6-3-6-1",
+  "type": "Worksheet Exercise",
+  "number": "5",
+  "title": "",
+  "body": "  Let .     Find the linearization of at     The linearization is given by the formula Calculating the derivative, We have that and so       Approximate (using the linearization found in part (a)).     and Thus     "
+},
+{
+  "id": "root-1-2-6-3-6-2",
+  "level": "2",
+  "url": "root-1-2-6-3.html#root-1-2-6-3-6-2",
+  "type": "Worksheet Exercise",
+  "number": "6",
+  "title": "",
+  "body": "  Differentiate the following.          Note that, , and . Thus, by the chain rule,            Note that , and . Thus, by the chain rule,            By the chain rule,     "
+},
+{
+  "id": "root-1-2-6-3-7-1",
+  "level": "2",
+  "url": "root-1-2-6-3.html#root-1-2-6-3-7-1",
+  "type": "Worksheet Exercise",
+  "number": "7",
+  "title": "",
+  "body": "  Below is the graph of a function for between and . That is, is in the interval Answer the following questions based on the graph.          At which -values is  not continuous?    The function is not continuous at   (a jump discontinuity); and   (a removable discontinuity).        At which -values is  not differentiable?    The function is not differentiable at   and (since is not continuous at or ); and   (since has a cusp at .)        On which intervals is the derivative positive?     is positive where is increasing. Thus, is positive on the intervals       On which intervals is the derivative negative?     is negative where is decreasing. Thus, is negative on the interval    Graph of and   Graph of and  Graph of in blue and in blue. The red curve is positive where the blue curve is increasing; the red curve is negative where the blue curve is decreasing. The red curve has a vertical asymptote at since the blue curve has a cusp at .       "
+},
+{
+  "id": "root-1-2-6-3-8-1",
+  "level": "2",
+  "url": "root-1-2-6-3.html#root-1-2-6-3-8-1",
+  "type": "Worksheet Exercise",
+  "number": "8",
+  "title": "",
+  "body": "  On the axes below, sketch a function which satisfies the following conditions.     The domain of is ;   is not continuous at or , is continuous at all other values of ;                                    "
 }
 ]
 
