@@ -84,7 +84,7 @@
                     Proceeding, we have
                     <md>
                     <mrow>  \lim_{x\rightarrow 1}\frac{x^2-1}{x-1} \amp \overset{\text{L'Hospital}}{=} \lim_{x\rightarrow 1}\frac{\frac{d}{dx}(x^2-1)}{\frac{d}{dx}(x-1)}  </mrow>
-                    <mrow> \amp = \frac{2x}{1} = 0. </mrow>
+                    <mrow> \amp = \lim_{x\rightarrow 1}\frac{2x}{1} = 2. </mrow>
                     </md>
                     
                 </p>
