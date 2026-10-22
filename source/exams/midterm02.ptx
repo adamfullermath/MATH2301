@@ -622,6 +622,37 @@
                 </image>
             </p>
         </statement>
+
+        <solution>
+            <p>
+                There is no one right answer to this question.
+                The following is an example of a correct answer.
+                The vertical and horizontal asymptotes are illustrated with dotted lines; the function is <m>f</m> is graphed in blue.
+            </p>
+            <p>
+                <image>
+                    <sageplot label="midterm2_sol3">
+                        rad = 0.05
+                        disp= 0.02
+                        p=1/5
+                        f(x) = -1/(x-3)^2
+                        h(x) = -(x+1)^2+3
+                        a = plot(f + 2.0625, (-1+rad,3)) + plot(h,(-7,-1-rad)) + plot(f+2,(3,7))
+
+                        pt1 = circle((-1,3), rad, fill=False)
+                        pt2 = circle((-1,2), rad, fill=False)
+                        pt3 = circle((-1,1), rad, fill=True)
+
+                        L = line([(3,-8),(3,8)], linestyle="--", color="green", thickness="0.75")
+                        M = line([(3.5,2),(8,2)], linestyle="--", color="green", thickness="0.75")
+
+                        a = a + pt1 + pt2 + pt3 + L +M
+                        a.set_axes_range(-7,7,-7,7)
+                        a
+                    </sageplot>
+                </image>
+            </p>
+        </solution>
     </exercise>
   </page>
 </worksheet>
