@@ -385,7 +385,7 @@
                     Note that <m>\frac{d}{dx}(\sin^{-1}(x)) = \frac{1}{\sqrt{1-x^2}}</m>, and <m>\frac{d}{dx}(x^2)=2x</m>.
                     Thus, by the chain rule,
                     <md>
-                        f'(x) = \left(\frac{1}{\sqrt{1-x^2}}\right)(2x) = \frac{2x}{\sqrt{1-x^2}}.
+                        f'(x) = \left(\frac{1}{\sqrt{1-(x^2)^2}}\right)(2x) = \frac{2x}{\sqrt{1-x^4}}.
                     </md>
                 </p>
             </solution>

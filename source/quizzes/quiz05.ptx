@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Quiz 5</title>
+
+  <introduction>
+    <p>
+      <alert>Answer all questions. Show your work.</alert>
+        Clearly write your first and last name on the top of the page.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise workspace="2in">
+    <statement>
+        <p>
+            Calculate the following limit:
+            <md>
+                \lim_{x\rightarrow 0}\frac{e^{2x}-1}{\sin(x)}
+            </md>
+        </p>
+    </statement>
+    </exercise>
+
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Calculate the following limit:
+                <md>
+                    \lim_{x\rightarrow 2}\frac{x^2-x-1}{x-2}
+                </md>
+
+            </p>
+        </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise>
+        <statement>
+            <p>
+                Find all the critical numbers for the function
+                <md>
+                    f(x) = x^{3}-12x + 20
+                </md>
+                
+            </p>
+        </statement>
+    </exercise>
+  </page>
+</worksheet>

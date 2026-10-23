@@ -34,6 +34,7 @@
           <xi:include href="./quizzes/quiz02.ptx"/>
           <xi:include href="./quizzes/quiz03.ptx"/>
           <xi:include href="./quizzes/quiz04.ptx"/>
+          <xi:include href="./quizzes/quiz05.ptx"/>
       </chapter>
 
       <chapter>
