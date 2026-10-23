@@ -604,6 +604,42 @@ var ptx_lunr_docs = [
   "body": "  Let .     Find the linear approximation of at .    The function is the tangent line of the curve at the point . Note  and Hence       Approximate (using your linear approximation above).     . Hence     "
 },
 {
+  "id": "root-1-2-5-6",
+  "level": "1",
+  "url": "root-1-2-5-6.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz 5",
+  "body": " Quiz 5    Answer all questions. Show your work. Clearly write your first and last name on the top of the page.      Calculate the following limit:       Calculate the following limit:         Find all the critical numbers for the function      "
+},
+{
+  "id": "root-1-2-5-6-3-1",
+  "level": "2",
+  "url": "root-1-2-5-6.html#root-1-2-5-6-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Calculate the following limit:    "
+},
+{
+  "id": "root-1-2-5-6-3-2",
+  "level": "2",
+  "url": "root-1-2-5-6.html#root-1-2-5-6-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Calculate the following limit:    "
+},
+{
+  "id": "root-1-2-5-6-4-1",
+  "level": "2",
+  "url": "root-1-2-5-6.html#root-1-2-5-6-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Find all the critical numbers for the function    "
+},
+{
   "id": "root-1-2-6-2",
   "level": "1",
   "url": "root-1-2-6-2.html",
