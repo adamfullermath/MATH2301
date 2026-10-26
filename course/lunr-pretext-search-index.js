@@ -424,6 +424,33 @@ var ptx_lunr_docs = [
   "body": "  Find the absolute maximum value and the absolute minimum value of on the interval .   "
 },
 {
+  "id": "ch--11",
+  "level": "1",
+  "url": "ch--11.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Recitation 10",
+  "body": " Recitation 10    Instructions: Clearly write first and last names of each member on the top of the pages.       Let on the interval .     On which intervals is increasing? On which intervals is decreasing?      Find the local maxima and local minima for . Find the absolute maximum and absolute minimum for . (Note, in this question you are asked for the values, not just the -values).      Where are the points of inflection for ? On which intervals is the graph of concave up? On which intervals is the graph of concave down?         Sketch a function which satisfies the following.     ,   when and when ,   when and when ,     when ,   when and when .            "
+},
+{
+  "id": "ch--11-3-1",
+  "level": "2",
+  "url": "ch--11.html#ch--11-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Let on the interval .     On which intervals is increasing? On which intervals is decreasing?      Find the local maxima and local minima for . Find the absolute maximum and absolute minimum for . (Note, in this question you are asked for the values, not just the -values).      Where are the points of inflection for ? On which intervals is the graph of concave up? On which intervals is the graph of concave down?    "
+},
+{
+  "id": "ch--11-4-1",
+  "level": "2",
+  "url": "ch--11.html#ch--11-4-1",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Sketch a function which satisfies the following.     ,   when and when ,   when and when ,     when ,   when and when .          "
+},
+{
   "id": "root-1-2-5-2",
   "level": "1",
   "url": "root-1-2-5-2.html",
@@ -610,7 +637,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet",
   "number": "",
   "title": "Quiz 5",
-  "body": " Quiz 5    Answer all questions. Show your work. Clearly write your first and last name on the top of the page.      Calculate the following limit:       Calculate the following limit:         Find all the critical numbers for the function      "
+  "body": " Quiz 5    Answer all questions. Show your work. Clearly write your first and last name on the top of the page.      Calculate the following limit:     Note that , and , and so we can apply L'Hospital's rule. Thus       Calculate the following limit:     Note that , and . Thus, we can apply L'Hospital's rule to calculate the limit.     We can also answers this question without resorting to L'Hospital's rule. Note that . Thus,         Find all the critical numbers for the function     The critical numbers occur where or is undefined. We have that The derivative is defined everywhere, thus to find the critical numbers we set Solving we have Thus, the critical numbers of are and      "
 },
 {
   "id": "root-1-2-5-6-3-1",
@@ -619,7 +646,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "1",
   "title": "",
-  "body": "  Calculate the following limit:    "
+  "body": "  Calculate the following limit:     Note that , and , and so we can apply L'Hospital's rule. Thus    "
 },
 {
   "id": "root-1-2-5-6-3-2",
@@ -628,7 +655,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "2",
   "title": "",
-  "body": "  Calculate the following limit:    "
+  "body": "  Calculate the following limit:     Note that , and . Thus, we can apply L'Hospital's rule to calculate the limit.     We can also answers this question without resorting to L'Hospital's rule. Note that . Thus,    "
 },
 {
   "id": "root-1-2-5-6-4-1",
@@ -637,7 +664,7 @@ var ptx_lunr_docs = [
   "type": "Worksheet Exercise",
   "number": "3",
   "title": "",
-  "body": "  Find all the critical numbers for the function    "
+  "body": "  Find all the critical numbers for the function     The critical numbers occur where or is undefined. We have that The derivative is defined everywhere, thus to find the critical numbers we set Solving we have Thus, the critical numbers of are and    "
 },
 {
   "id": "root-1-2-6-2",
