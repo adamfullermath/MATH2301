@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Recitation 10</title>
+
+  <introduction>
+    <p>
+      <alert>Instructions: Clearly write first and last names of each member on the top of the pages.</alert>
+    </p>
+
+  </introduction>
+
+  <page>
+    <exercise>
+        <introduction>
+            <p>
+                Let <m>f(x)=\sin(x) + \cos(x)</m> on the interval <m>[0,2\pi]</m>.
+            </p>
+        </introduction>
+        <task workspace = "2in">
+            <statement>
+                <p>
+                    On which intervals is <m>f</m> increasing?
+                    On which intervals is <m>f</m> decreasing?
+                </p>
+            </statement>
+        </task>
+        <task workspace = "1.5in">
+            <statement>
+                <p>
+                    Find the local maxima and local minima for <m>f</m>.
+                    Find the absolute maximum and absolute minimum for <m>f</m>.
+                    (Note, in this question you are asked for the <m>f</m> values, not just the <m>x</m>-values).
+                </p>
+            </statement>
+        </task>
+
+        <task workspace = "1.5in">
+            <statement>
+                <p>
+                    Where are the points of inflection for <m>f</m>?
+                    On which intervals is the graph of <m>f</m> concave up?
+                    On which intervals is the graph of <m>f</m> concave down?
+                </p>
+            </statement>
+        </task>
+    </exercise>
+</page>
+
+<page>
+    <exercise>
+        <statement>
+            <p>
+                Sketch a function <m>f(x)</m> which satisfies the following.
+            </p>
+            
+            <sidebyside widths="40% 40%" margins="auto" valign="top">
+                <stack>
+                <p>
+                    <m>f'(0)=f'(2)=f'(4)=0</m>,
+                </p>
+                <p>
+                    <m>f'(x) \gt 0</m> when <m>x \lt 0</m> and when <m>2 \lt x \lt 4</m>,
+                </p>
+                <p>
+                    <m>f'(x)\lt 0</m> when <m>0\lt x \lt 2</m> and when <m>x \gt 4</m>,
+                </p>
+                </stack>
+                <stack>
+                <p>
+                    <m>f''(x) \gt 0</m> when <m>1 \lt x \lt 3</m>,
+                </p>
+                <p>
+                    <m>f''(x) \lt 0</m> when <m>x\lt 1</m> and when <m>x \gt 3</m>.
+                </p>
+                </stack>
+            </sidebyside>
+            <p>
+                <image>
+                    <sageplot label="rec10">
+                        a = plot([])
+                        a.set_axes_range(-3,7,-7,7)
+                        a
+                    </sageplot>
+                </image>
+            </p>
+            
+            
+        </statement>
+    </exercise>
+</page>
+
+</worksheet>
