@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Recitation 11</title>
+
+  <introduction>
+    <p>
+      <alert>Instructions: Clearly write first and last names of each member on the top of the pages.</alert>
+      You must use calculus and show all details clearly. No credit for just guessing values.
+    </p>
+
+  </introduction>
+
+  <page>
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Find the point on the line <m>y=2x+3</m> that is closest to the origin.
+            </p>
+        </statement>
+    </exercise>
+    <exercise workspace ="2in">
+        <statement>
+            <p>
+                Find the points on the ellipse <m>4 x^2 + y^2= 4</m> that are farthest away from the point <m>( 1 , 0 )</m>.
+            </p>
+        </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise workspace="2in">
+        <statement>
+            If <m>1200</m> cm<m>^2</m> of material is available to make a box with a square base and an open top, find the largest possible volume of the box.
+        </statement>
+    </exercise>
+
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                 A Norman window has the shape of a semicircle sitting on a rectangle. The total perimeter of window is <m>P=20</m>  feet. Find the value of the semicircle radius that maximizes area of the whole window.
+            </p>
+        </statement>
+    </exercise>
+  </page>
+
+</worksheet>

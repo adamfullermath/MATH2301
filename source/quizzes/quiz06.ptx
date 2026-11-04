@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Quiz 6</title>
+
+  <introduction>
+    <p>
+      <alert>Answer all questions. Show your work.</alert>
+        Clearly write your first and last name on the top of the page.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+        <introduction>
+            <p>
+                Let <m>f(x) = x^{4}-4x</m>.
+            </p>
+        </introduction>
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Find the intervals on which <m>f</m> is increasing or decreasing.
+                </p>
+            </statement>
+
+            <solution>
+                <p>
+                    The function <m>f(x)</m> is increasing where <m>f'(x)</m> is positive, and decreasing where <m>f'(x)</m> is negative.
+                    <md>
+                        f'(x) = 4x^3-4.
+                    </md>
+                    Thus <m>f'(x)\gt 0</m> when <m>x^3\gt 1</m>. Equivalently, <m>f'(x)\gt 0</m> when <m>x\gt 1</m>.
+                    Also, <m>f'(x)\lt 0</m> when <m>x \lt 1.</m>
+                    Thus,
+                    <ul>
+                        <li>
+                            <m>f</m> is increasing on the interval <m>(1,\infty)</m>; and
+                        </li>
+                        <li>
+                            <m>f</m> is decreasing on the interval <m>(-\infty,1)</m>.
+                        </li>
+                    </ul>
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Find the local maximum and local minimum values of <m>f</m>.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    The critical  numbers for <m>f</m> occur when <m>f'(x)=0</m> (note that <m>f'(x)</m> is defined for all <m>x</m>).
+                    Thus, the only critical number for <m>f</m> is <m>x=1.</m>
+                </p>
+                <p>
+                    We have that
+                    <tabular>
+                    <row header="yes" bottom="minor">
+                        <cell>Interval: <m>-\infty\lt x \lt 1</m></cell>
+                        <cell>Interval: <m>1\lt x\lt \infty</m></cell>
+                    </row>
+                    <row>
+                        <cell><m>f'(x)\lt 0</m></cell>
+                        <cell><m>f'(x)\gt 0</m></cell>
+                    </row>
+                    </tabular>
+                    Thus, <m>f</m> has a local minimum at <m>x=1</m>, by the first derivatives test. 
+                    The value <m>f</m> takes at this minimum is <m>f(1)=-3</m>.
+                </p>
+            </solution>
+            <solution>
+                <p>
+                    As above, we see that <m>f</m> has a critical point at <m>x=1</m>.
+                    We could also use the second derivative test to see when there is a local maximum or a local minimum at <m>x=1</m>.
+                    <md>
+                        f''(x)=12x^2.
+                    </md>
+                    As <m>f''(1)=12\gt 0</m>, it follows that <m>f</m> has a local minimum at <m>x=1</m> by the second derivatives test.
+                </p>
+            </solution>
+        </task>
+
+        <task workspace="2in">
+            <statement>
+                <p>
+                    Find the intervals of concavity (i.e. where is the graph concave up and where is the graph concave down) and the inflection points.
+                </p>
+            </statement>
+            <solution>
+                <p>
+                    To find the intervals of concavity, we calculate <m>f''</m>:
+                    <md>
+                        f''(x) = 12x^2.
+                    </md>
+                    Note that <m>f''(x)\gt 0</m> for all <m>x\neq 0.</m>
+                    Thus, <m>f</m> is concave up on the intervals <m>(-\infty,0)</m> and <m>(0,\infty)</m>.
+                </p>
+                <p>
+                    Note that <m>f''(0)=0</m>. However, <m>x=0</m> is not an inflection point, since the graph of <m>f</m> does not change concavity at <m>x=0</m> (it is concave up on either side of <m>x=0</m>). Hence <m>f</m> has no inflection points, and is concave up everywhere.
+                </p>
+            </solution>
+        </task>
+
+        
+    </exercise>
+  </page>
+  <page>
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Sketch the curve <m>y = x^4-4x</m>. (Note that this is the same function as in question 1).
+            </p>
+
+        </statement>
+        <solution>
+            <p>
+                The domain of <m>f</m> is the entire real line (it is defined everywhere).
+                Thus, there are no vertical asymptotes.
+                Note that
+                <md>
+                    \lim_{x\rightarrow \infty}f(x) = \infty = \lim_{x\rightarrow-\infty}f(x).
+                </md>
+            </p>
+            <p>
+                The <m>y</m>-intercept is <m>f(0)=0</m>.
+                The <m>x</m>-intercepts occur where <m>f(x) = 0</m>.
+                Setting <m>f(x) = 0</m> we get
+                <md>
+                    <mrow>0 \amp = x^4-4x = x(x^3-4). </mrow>
+                </md>
+                Thus <m>f(x)=0</m> when <m>x=0</m> or <m>x = 4^{1/3}.</m>
+                (I don't expect you to know exactly where <m>4^{1/3}</m> is, it is an irrational number. But you should be able to see that it is between <m>1</m> and <m>2</m>.)
+            </p>
+            <p>
+                We already worked out where <m>f</m> is increasing and decreasing, that <m>f(1)=-3</m> is a local (and hence absolute) minimum, and that <m>f</m> is concave up everywhere.
+            </p>
+            <p>
+                <image>
+                    <sageplot label="quiz6sol">
+                        f=x^4-4*x
+
+                        xticks=[0,1,4^(1/3),2]
+                        yticks=[-3,0]
+                        x_ticks_format =  [r"0", r"1",r"$\sqrt[3]{4}$",r"2"]
+                        y_ticks_format=[r"$-3$","0"]
+
+                        a = plot(f,(x,-2,3), ticks=[xticks,yticks],tick_formatter=[x_ticks_format,y_ticks_format],legend_label=r'$f(x)=x^4-4x$')
+                        
+                        P1 = point((0,0))
+                        P2 = point((1,-3))
+                        P3 = point((4^(1/3),0))
+                        a = a + P1 + P2 + P3
+                        a.set_axes_range(-2,3,-4,4)
+                        a
+                    </sageplot>
+                </image>
+            </p>
+
+
+        </solution>
+    </exercise>
+    <p>
+                <image>
+                    <sageplot label="quiz6">
+                        a = plot([],ticks=[[],[]])
+                        a.set_axes_range(-7,7,-4,10)
+                        a
+                    </sageplot>
+                </image>
+    </p>
+  </page>
+</worksheet>
