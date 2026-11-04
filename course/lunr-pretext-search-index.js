@@ -451,6 +451,51 @@ var ptx_lunr_docs = [
   "body": "  Sketch a function which satisfies the following.     ,   when and when ,   when and when ,     when ,   when and when .          "
 },
 {
+  "id": "ch--12",
+  "level": "1",
+  "url": "ch--12.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Recitation 11",
+  "body": " Recitation 11    Instructions: Clearly write first and last names of each member on the top of the pages. You must use calculus and show all details clearly. No credit for just guessing values.      Find the point on the line that is closest to the origin.      Find the points on the ellipse that are farthest away from the point .       If cm of material is available to make a box with a square base and an open top, find the largest possible volume of the box.     A Norman window has the shape of a semicircle sitting on a rectangle. The total perimeter of window is feet. Find the value of the semicircle radius that maximizes area of the whole window.     "
+},
+{
+  "id": "ch--12-3-1",
+  "level": "2",
+  "url": "ch--12.html#ch--12-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Find the point on the line that is closest to the origin.   "
+},
+{
+  "id": "ch--12-3-2",
+  "level": "2",
+  "url": "ch--12.html#ch--12-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Find the points on the ellipse that are farthest away from the point .   "
+},
+{
+  "id": "ch--12-4-1",
+  "level": "2",
+  "url": "ch--12.html#ch--12-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": " If cm of material is available to make a box with a square base and an open top, find the largest possible volume of the box.  "
+},
+{
+  "id": "ch--12-4-2",
+  "level": "2",
+  "url": "ch--12.html#ch--12-4-2",
+  "type": "Worksheet Exercise",
+  "number": "4",
+  "title": "",
+  "body": "  A Norman window has the shape of a semicircle sitting on a rectangle. The total perimeter of window is feet. Find the value of the semicircle radius that maximizes area of the whole window.   "
+},
+{
   "id": "root-1-2-5-2",
   "level": "1",
   "url": "root-1-2-5-2.html",
@@ -665,6 +710,33 @@ var ptx_lunr_docs = [
   "number": "3",
   "title": "",
   "body": "  Find all the critical numbers for the function     The critical numbers occur where or is undefined. We have that The derivative is defined everywhere, thus to find the critical numbers we set Solving we have Thus, the critical numbers of are and    "
+},
+{
+  "id": "root-1-2-5-7",
+  "level": "1",
+  "url": "root-1-2-5-7.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz 6",
+  "body": " Quiz 6    Answer all questions. Show your work. Clearly write your first and last name on the top of the page.      Let .     Find the intervals on which is increasing or decreasing.    The function is increasing where is positive, and decreasing where is negative. Thus when . Equivalently, when . Also, when Thus,   is increasing on the interval ; and   is decreasing on the interval .        Find the local maximum and local minimum values of .    The critical numbers for occur when (note that is defined for all ). Thus, the only critical number for is   We have that   Interval:  Interval:       Thus, has a local minimum at , by the first derivatives test. The value takes at this minimum is .    As above, we see that has a critical point at . We could also use the second derivative test to see when there is a local maximum or a local minimum at . As , it follows that has a local minimum at by the second derivatives test.      Find the intervals of concavity (i.e. where is the graph concave up and where is the graph concave down) and the inflection points.    To find the intervals of concavity, we calculate : Note that for all Thus, is concave up on the intervals and .  Note that . However, is not an inflection point, since the graph of does not change concavity at (it is concave up on either side of ). Hence has no inflection points, and is concave up everywhere.         Sketch the curve . (Note that this is the same function as in question 1).    The domain of is the entire real line (it is defined everywhere). Thus, there are no vertical asymptotes. Note that   The -intercept is . The -intercepts occur where . Setting we get Thus when or (I don't expect you to know exactly where is, it is an irrational number. But you should be able to see that it is between and .)  We already worked out where is increasing and decreasing, that is a local (and hence absolute) minimum, and that is concave up everywhere.               "
+},
+{
+  "id": "root-1-2-5-7-3-1",
+  "level": "2",
+  "url": "root-1-2-5-7.html#root-1-2-5-7-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Let .     Find the intervals on which is increasing or decreasing.    The function is increasing where is positive, and decreasing where is negative. Thus when . Equivalently, when . Also, when Thus,   is increasing on the interval ; and   is decreasing on the interval .        Find the local maximum and local minimum values of .    The critical numbers for occur when (note that is defined for all ). Thus, the only critical number for is   We have that   Interval:  Interval:       Thus, has a local minimum at , by the first derivatives test. The value takes at this minimum is .    As above, we see that has a critical point at . We could also use the second derivative test to see when there is a local maximum or a local minimum at . As , it follows that has a local minimum at by the second derivatives test.      Find the intervals of concavity (i.e. where is the graph concave up and where is the graph concave down) and the inflection points.    To find the intervals of concavity, we calculate : Note that for all Thus, is concave up on the intervals and .  Note that . However, is not an inflection point, since the graph of does not change concavity at (it is concave up on either side of ). Hence has no inflection points, and is concave up everywhere.    "
+},
+{
+  "id": "root-1-2-5-7-4-1",
+  "level": "2",
+  "url": "root-1-2-5-7.html#root-1-2-5-7-4-1",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Sketch the curve . (Note that this is the same function as in question 1).    The domain of is the entire real line (it is defined everywhere). Thus, there are no vertical asymptotes. Note that   The -intercept is . The -intercepts occur where . Setting we get Thus when or (I don't expect you to know exactly where is, it is an irrational number. But you should be able to see that it is between and .)  We already worked out where is increasing and decreasing, that is a local (and hence absolute) minimum, and that is concave up everywhere.        "
 },
 {
   "id": "root-1-2-6-2",
