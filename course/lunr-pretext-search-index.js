@@ -496,6 +496,42 @@ var ptx_lunr_docs = [
   "body": "  A Norman window has the shape of a semicircle sitting on a rectangle. The total perimeter of window is feet. Find the value of the semicircle radius that maximizes area of the whole window.   "
 },
 {
+  "id": "ch--13",
+  "level": "1",
+  "url": "ch--13.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Recitation 12",
+  "body": " Recitation 12    Instructions: Clearly write first and last names of each member on the top of the pages. You must use calculus and show all details clearly. No credit for just guessing values.      Apply Newton's method twice to estimate the root of starting with initial guess         Give the antiderivative to each of the following functions.                    A stone was dropped off a cliff and hit the ground with a speed of 91 m\/s. What is the height of the cliff?     "
+},
+{
+  "id": "ch--13-3-1",
+  "level": "2",
+  "url": "ch--13.html#ch--13-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Apply Newton's method twice to estimate the root of starting with initial guess    "
+},
+{
+  "id": "ch--13-4-1",
+  "level": "2",
+  "url": "ch--13.html#ch--13-4-1",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  Give the antiderivative to each of the following functions.                 "
+},
+{
+  "id": "ch--13-4-2",
+  "level": "2",
+  "url": "ch--13.html#ch--13-4-2",
+  "type": "Worksheet Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  A stone was dropped off a cliff and hit the ground with a speed of 91 m\/s. What is the height of the cliff?   "
+},
+{
   "id": "root-1-2-5-2",
   "level": "1",
   "url": "root-1-2-5-2.html",
@@ -737,6 +773,33 @@ var ptx_lunr_docs = [
   "number": "2",
   "title": "",
   "body": "  Sketch the curve . (Note that this is the same function as in question 1).    The domain of is the entire real line (it is defined everywhere). Thus, there are no vertical asymptotes. Note that   The -intercept is . The -intercepts occur where . Setting we get Thus when or (I don't expect you to know exactly where is, it is an irrational number. But you should be able to see that it is between and .)  We already worked out where is increasing and decreasing, that is a local (and hence absolute) minimum, and that is concave up everywhere.        "
+},
+{
+  "id": "root-1-2-5-8",
+  "level": "1",
+  "url": "root-1-2-5-8.html",
+  "type": "Worksheet",
+  "number": "",
+  "title": "Quiz 7",
+  "body": " Quiz 7    Answer all questions. Show your work. Clearly write your first and last name on the top of the page.      Use calculus to find two numbers whose difference is 48 and whose product is a minimum.    Let and be the two variables. We want to minimize when Solving for we have Hence Differentiating with respect to , we get Setting (to find the critical numbers), we get Note that is an absolute minimum of by either the first derivative test or the second derivative test ( ) (or since we know what a quadratic function looks like).  Hence, the two numbers with difference and minimal product are   The minimal product is , but we weren't asked for this.        If 1200 cm of material is available to make a box with a square base and an open top, find the largest possible volume of the box.       Let be the length an edge of the base of the box, and let be the height of the box. The volume of the box is then The surface area of the box is given by We are told that there is 1200 cm of cardboard. Hence Solving for we get Subbing this value for in we get   To find the maximum volume we find the critical numbers for . First we differentiate: and then set That is, we set and so Thus (Note that can not have a negative value).  To find the -value we sub into the equation , which gives Hence . Thus the maximum volume is      "
+},
+{
+  "id": "root-1-2-5-8-3-1",
+  "level": "2",
+  "url": "root-1-2-5-8.html#root-1-2-5-8-3-1",
+  "type": "Worksheet Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Use calculus to find two numbers whose difference is 48 and whose product is a minimum.    Let and be the two variables. We want to minimize when Solving for we have Hence Differentiating with respect to , we get Setting (to find the critical numbers), we get Note that is an absolute minimum of by either the first derivative test or the second derivative test ( ) (or since we know what a quadratic function looks like).  Hence, the two numbers with difference and minimal product are   The minimal product is , but we weren't asked for this.   "
+},
+{
+  "id": "root-1-2-5-8-4-1",
+  "level": "2",
+  "url": "root-1-2-5-8.html#root-1-2-5-8-4-1",
+  "type": "Worksheet Exercise",
+  "number": "2",
+  "title": "",
+  "body": "  If 1200 cm of material is available to make a box with a square base and an open top, find the largest possible volume of the box.       Let be the length an edge of the base of the box, and let be the height of the box. The volume of the box is then The surface area of the box is given by We are told that there is 1200 cm of cardboard. Hence Solving for we get Subbing this value for in we get   To find the maximum volume we find the critical numbers for . First we differentiate: and then set That is, we set and so Thus (Note that can not have a negative value).  To find the -value we sub into the equation , which gives Hence . Thus the maximum volume is    "
 },
 {
   "id": "root-1-2-6-2",
