@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Recitation 12</title>
+
+  <introduction>
+    <p>
+      <alert>Instructions: Clearly write first and last names of each member on the top of the pages.</alert>
+      You must use calculus and show all details clearly. No credit for just guessing values.
+    </p>
+
+  </introduction>
+
+  <page>
+    <exercise workspace="2in">
+        <statement>
+            <p>
+                Apply Newton's method twice to estimate the root of 
+                <md>
+                    f(x) = e^x - x^2
+                </md>
+                starting with initial guess <m>x_1 = 0.</m>
+            </p>
+        </statement>
+    </exercise>
+  </page>
+
+  <page>
+    <exercise>
+        <introduction>
+            <p>
+                Give the antiderivative to each of the following functions.
+            </p>
+        </introduction>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>f(t) = \sin(t) + \cos(t)</m>
+                </p>
+            </statement>
+        </task>
+
+        <task workspace="1in">
+            <statement>
+                <p>
+                    <m>f(x) = \frac{x^5 - x^3 + 2x}{x^4}</m>
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise workspace="3in">
+        <statement>
+            <p>
+                A stone was dropped off a cliff and hit the ground with a speed of 91 m/s. What is the height of the cliff?
+            </p>
+        </statement>
+    </exercise>
+  </page>
+</worksheet>

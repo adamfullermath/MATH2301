@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<worksheet>
+  <title>Quiz 7</title>
+
+  <introduction>
+    <p>
+      <alert>Answer all questions. Show your work.</alert>
+        Clearly write your first and last name on the top of the page.
+    </p>
+  </introduction>
+
+  <page>
+    <exercise>
+        <statement>
+            <p>
+                Use calculus to find two numbers whose difference is 48 and whose product is a minimum.
+            </p>
+        </statement>
+
+        <solution>
+          <p>
+            Let <m>x</m> and <m>y</m> be the two variables. We want to minimize <m>M = xy</m> when <m>x-y = 48.</m>
+            Solving for <m>y</m> we have
+            <md>
+              y = x - 48.
+            </md>
+            Hence
+            <md>
+              M = x(x-48) = x^2 - 48x.
+            </md>
+            Differentiating <m>M</m> with respect to <m>x</m>, we get
+            <md>
+              \frac{dM}{dx} = 2x - 48. 
+            </md>
+            Setting <m>\frac{dM}{dx} = 0</m> (to find the critical numbers), we get
+            <md>
+              <mrow> 2x \amp = 48, \text{and so} </mrow>
+              <mrow> x\amp =  24. </mrow>
+            </md>
+            Note that <m>x = 24</m> is an absolute minimum of <m>M= x^2- 48x</m> by either the first derivative test or the second derivative test (<m>f''(x)=2\gt 0</m>) (or since we know what a quadratic function looks like).
+          </p>
+          <p>
+            Hence, the two numbers with difference <m>48</m> and minimal product are
+            <md>
+              x = 24 \text{ and } y = -24.
+            </md>
+          </p>
+          <p>
+            The minimal product is <m>M = -24^2 = - 576</m>, but we weren't asked for this.
+          </p>
+        </solution>
+    </exercise>
+
+  </page>
+
+  <page>
+    <exercise>
+        <statement>
+            <p>
+                If 1200 cm<m>^2</m> of material is available to make a box with a square base and an open top, find the largest possible volume of the box.
+            </p>
+        </statement>
+
+        <solution>
+          <p>
+            <interactive xml:id="quiz7_q2" platform="sage">
+              <slate surface = "sage">
+                  Base = [(0,0,0),(1,0,0),(1,1,0),(0,1,0),(0,0,0)]
+                  Top = [ vector(P) + vector((0,0,1/2)) for P in Base]
+
+                  Sides = [line([vector(P),vector(P)+vector((0,0,1/2))]) for P in Base]
+
+                  plt = line(Base + Top, frame=False)
+                  plt = plt + sum(Sides)
+                  T = text3d('w',(1/10,1/2,0)) + text3d('h',(1/10,0,1/4)) 
+                  plt + T
+              </slate>
+            </interactive>
+          </p>
+
+          <p>
+            Let <m>w</m> be the length an edge of the base of the box, and let <m>h</m> be the height of the box.
+            The volume of the box is then
+            <md>
+              V = w^2 h.
+            </md>
+            The surface area of the box is given by
+            <md>
+              A = \text{area of base} + 4\times\text{(area of sides)} = w^2 + 4wh. 
+            </md>
+            We are told that there is 1200 cm<m>^2</m> of cardboard. Hence
+            <md>
+              w^2 + 4wh = 1200.
+            </md>
+            Solving for <m>h</m> we get
+            <md>
+              h = \frac{300}{w} -\frac{w}{4}.
+            </md>
+            Subbing this value for <m>h</m> in <m>V</m> we get
+            <md>
+              V = w^2\left(\frac{300}{w} - \frac{w}{4}\right) = 300w - \frac{w^3}{4}.
+            </md>
+          </p>
+          <p>
+            To find the maximum volume we find the critical numbers for <m>V</m>.
+            First we differentiate:
+            <md>
+              \frac{dV}{dw} = 300 -\frac{3}{4}w^2,
+            </md>
+            and then set <m>\frac{dV}{dw} = 0.</m>
+            That is, we set
+            <md>
+              300 -\frac{3}{4}w^2 = 0
+            </md>
+            and so
+            <md>
+              w^2 = 400
+            </md>
+            Thus <m>w = \sqrt{400} = 20.</m> (Note that <m>w</m> can not have a negative value).
+          </p>
+          <p>
+            To find the <m>h</m>-value we sub <m>w = 20</m> into the equation <m>w^2 +4wh = 1200</m>, which gives
+            <md>
+              400 + 80h = 1200.
+            </md>
+            Hence <m>h = 10</m>.
+            Thus the maximum volume is
+            <md>
+              V = w^2 h = 400\times 10 = 4000 \text{cm}^3.
+            </md>
+            
+          </p>
+        </solution>
+    </exercise>
+  </page>
+</worksheet>
